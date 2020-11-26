@@ -1,0 +1,178 @@
+
+body{
+	margin: 0px;
+}
+
+li,a{
+	font-family: 'Architects Daughter', cursive;
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1E1E1E;
+	border:0px;
+	padding-left: 25px;
+	max-width:100%;
+	border-top: 3px;
+	border-style: groove;
+	border-color: #4CAF50;
+	
+}
+.linqet_e_navigimit a{
+	padding: 16px 20px;
+}
+
+.linqet_e_navigimit{
+	list-style: none;
+	margin-right: 20px;
+}
+.linqet_e_navigimit li{
+	display: inline-block;
+	padding: 16px 20px;
+	border:0px;
+	margin: 0px;
+}
+.linqet_e_navigimit a:hover{
+	border-radius: 50px;
+	background-color: rgba(255,255,255,1);
+	transition: all 0.4s ease 0.1s;
+	color:#4CAF50;
+}
+.butoni1 button{
+	padding: 16px 20px;
+	background-color: rgb(25,105,79,1);
+	border:none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	font-family: "Montserrat",sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	text-decoration: none;
+	color:white;
+	margin-right: 60px;
+
+}
+.butoni1 button:hover{
+	background-color: rgb(255,255,255,1);
+	color: black;
+}
+
+.klasa1{
+	background-color: rgb(25,105,79,0.8);
+}
+.divi{
+	display: flex;
+	background-color:#F9EEEE;
+}
+.divi1{
+	margin-top: 150px;
+	margin-right: 50px;
+	margin-left: 50px;
+	position: relative;
+	width: 300px;
+	height: 220px;
+	background-color: #1E1E1E;
+	border-radius: 50px;
+	
+}
+.divi1:hover{
+	padding:5px;
+	box-shadow: 6px groove;
+	transition: all 0.4s ease-in-out;
+	background-color: black;
+}
+.divi2:hover{
+	padding:5px;
+	box-shadow: 6px groove;
+	transition: all 0.4s ease-in-out;
+	background-color: black;
+}
+.divi3:hover{
+	padding:5px;
+	box-shadow: 6px groove;
+	transition: all 0.4s ease-in-out;
+	background-color: black;
+}
+.divi2{
+	margin-top: 5px;
+	position: relative;
+	width: 800px;
+	height: 500px;
+	background-color: #1E1E1E;
+	border-radius: 50px; 
+}
+
+.divi2 img{
+	padding-left: 40px;
+	padding-top: 20px;
+	float: left;
+}
+.divi2 p{
+	font-family: 'Bree Serif', serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	padding-top: 120px;
+}
+.divi1 img{
+	padding-left: 45px;
+	padding-top: 5px;
+
+}
+.divi1 p{
+	font-family: 'Bree Serif', serif;
+	font-weight: 600;
+	font-size: 26px;
+	color: white;
+	text-align: center;
+}
+.divi3 img{
+	padding-left: 45px;
+	padding-top: 5px;
+
+}
+.divi3 p{
+	font-family: 'Bree Serif', serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+}
+.divi2 button{
+	padding: 16px 20px;
+	background-color: rgb(25,105,79,1);
+	border:none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	font-family: "Montserrat",sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-decoration: none;
+	color:white;
+	margin-right: 60px;
+}
+.divi2 button:hover{
+	background-color: rgb(255,255,255,1);
+	color: black;
+}
+.divi3{
+	margin-top: 150px;
+	margin-right: 10px;
+	margin-left: 50px;
+	position: relative;
+	width: 300px;
+	height: 220px;
+	background-color: #1E1E1E;
+	border-radius: 50px;
+	
+}
+
