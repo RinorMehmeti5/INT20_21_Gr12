@@ -4,17 +4,32 @@
 	<title>Hug the world</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="home.css">
+	<script src="https://kit.fontawesome.com/0a786c01b2.js
+" crossorigin="anonymous"></script>
 </head>
+
 <body>
+	<div style="width: 1350px; height: 40px;" class="divi">
+		<p>
+			Welcome to our website
+		</p>
+		<ul>
+			<li><a href=""><i class="fab fa-facebook"></i></a></li>
+			<li><a href=""><i class="fab fa-instagram"></i></a></li>
+			<li><a href=""><i class="fab fa-discord"></i></a></li>
+			<li><a href=""><i class="fab fa-reddit"></i></a></li>
+		</ul>
+	</div>
+	<hr>
 	<header>
 		<!--width="389.333px;" height="110px;"-->
-		<img class="logo" src="images/logo5.png" alt="logo">
+		<img class="logo" src="images/logooo.png" alt="logo">
 		<nav>
 			<ul class="linqet_e_navigimit">
-				<li><a href="#">Klasat</a></li>
-				<li><a href="#">Lendet</a></li>
-				<li><a href="#">Personeli</a></li>
-				<li><a href="#">tiketa</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Destinations</a></li>
+				<li><a href="#">Tours</a></li>
 			</ul>
 		</nav>
 		<a class="butoni1" href="#"><button>Get Ticket</button></a>
@@ -23,23 +38,121 @@
 		<img id="colorChanger" src="images/tiketa.gif" width="80px" height="50px" alt="">
 		<p style="color:white">Fast Ticket</p>
 	</div>-->
-	<div class="divi">
-		<div class="divi1">
-			<img src="images/safe.png">
-			<p>safe fly with us</p>
-		</div>
-		<div class="divi2">
-			<img src="images/plane.png">
-			<p>Fly comfortable to your dectinacion in our plane</p>
-			<p>Take your <button>FLY</button> </p>
-		</div>
-		<div class="divi3">
-			<img src="images/case.png">
-			<p>Get your suitcase ready</p>
-		</div>
+	<div class="img-slider">
+      <div class="slide active">
+        <img src="images/foto.jpg" alt="">
+        <div class="info">
+          <h2>Slide 01</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="images/travel.jpg" alt="">
+        <div class="info">
+          <h2>Slide 02</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="images/travell.jpg" alt="">
+        <div class="info">
+          <h2>Slide 03</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="images/bota.jpg" alt="">
+        <div class="info">
+          <h2>Slide 04</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="images/foto.jpg" alt="">
+        <div class="info">
+          <h2>Slide 05</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="btn active"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+      </div>
+    </div>
+
+<script type="text/javascript">
+  var slides = document.querySelectorAll('.slide');
+    var btns = document.querySelectorAll('.btn');
+    let currentSlide = 1;
+
+    // Javascript for image slider manual navigation
+    var manualNav = function(manual){
+      slides.forEach((slide) => {
+        slide.classList.remove('active');
+
+        btns.forEach((btn) => {
+          btn.classList.remove('active');
+        });
+      });
+
+      slides[manual].classList.add('active');
+      btns[manual].classList.add('active');
+    }
+
+    btns.forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        manualNav(i);
+        currentSlide = i;
+      });
+    });
+
+    // Javascript for image slider autoplay navigation
+    var repeat = function(activeClass){
+      let active = document.getElementsByClassName('active');
+      let i = 1;
+
+      var repeater = () => {
+        setTimeout(function(){
+          [...active].forEach((activeSlide) => {
+            activeSlide.classList.remove('active');
+          });
+
+        slides[i].classList.add('active');
+        btns[i].classList.add('active');
+        i++;
+
+        if(slides.length == i){
+          i = 0;
+        }
+        if(i >= slides.length){
+          return;
+        }
+        repeater();
+      }, 10000);
+      }
+      repeater();
+    }
+    repeat();
+</script>
+        <article  class="article1">
+            <img  alt="foto" title="Foto"  src="images/fluturimet.png">
+            <h3>Flights</h3>
+            <p>Many airlines have new policies so you won’t lose out if your flights need to be changed or canceled.</p>
+        </article>
+        <article class="article1">
+            <img alt="foto" title="Foto" src="images/hotelet.png">
+            <h3>Hotels</h3>
+            <p>It’s easy to stay flexible, you can book now, then decide if it’s right to go later. </p>
+        </article>
+        <article class="article1">
+           	<img alt="foto" title="Foto" src="images/makina.png">
+            <h3>Car rental</h3>
+            <p>Keep your options open. It’s free to cancel with most providers, or for a small fee, up to 48 hours before.</p>    
 	</div>
-	<div>
-		
-	</div>
+
 </body>
+
 </html>
