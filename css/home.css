@@ -25,11 +25,11 @@ body{
   color: #879696;
   font-family: 'Sansita Swashed', cursive;
 }
-.fab{
+.divi .fab{
   color: #879696;
   font-size: 20px;
 }
-.fab:hover{
+.divi .fab:hover{
   color: red;
   cursor: pointer;
 }
@@ -57,9 +57,10 @@ header{
 .linqet_e_navigimit li a{
   text-decoration: none;
   padding: 8px 16px;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #3b9cbf;
+  border-bottom: 2px solid #3b9cbf;
+  border-radius: 8px;
   font-family: 'Source Code Pro', monospace;
-  font-weight: 800;
   color: #454745;
 }
 
