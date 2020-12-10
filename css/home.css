@@ -363,6 +363,54 @@ footer input[type='submit']:hover{
 .info h2{
     font-size: 35px;
   }
+  .permbajtesi{
+  width: 1024px;
+  margin: auto;
+}
 
+.rreshtat{
+  display: flex;
+}
 
- 
+.kolona,
+.kolonat{
+  padding: 0.5rem;
+}
+
+.kolona{
+width: 24.9%;
+}
+
+.kolonat{
+  width: 75.1%;
+}
+
+.butonat{
+  display: block;
+  margin:0.25rem 0;
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1.1rem ;
+  background-color: blue;
+}
+ .butonat.active{
+  background-color: #fff;
+  border:1px solid #ccc;
+  box-shadow: 1px 1px 4px 0 #ccc;
+ }
+
+ .Minipermbajtes{
+  display: none;
+ }
+
+ .Minipermbajtes.active{
+  margin: 0px;
+  display: block;
+  box-shadow: 1px 1px 4px 0 #ccc;
+  border-radius: 3px;
+  padding: 1px 10px;
+}
