@@ -1,17 +1,14 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Hug the world</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/home.css">
-	<script src="https://kit.fontawesome.com/0a786c01b2.js" crossorigin="anonymous"></script>
+<title> Albania</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/0a786c01b2.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
 	<div style="width: 1350px; height: 40px;" class="divi">
-		<p>
-			Welcome to our website
-		</p>
+        <img class="logo" src="real_logo2.png" alt="logo">
+
 		<ul>
 			<li><a href=""><i class="fab fa-facebook"></i></a></li>
 			<li><a href=""><i class="fab fa-instagram"></i></a></li>
@@ -22,8 +19,6 @@
 	<hr>
 
 	<header>
-		<!--width="389.333px;" height="110px;"-->
-		<img class="logo" src="images/real_logo2.png" alt="logo">
 		<nav>
 			<ul class="linqet_e_navigimit">
 				<li><a href="#">Home</a></li>
@@ -35,138 +30,175 @@
 		</nav>
 		<a class="butoni1" href="#"><button>Get Ticket</button></a>
 	</header>
-
-	<div class="img-slider">
-      <div class="slide active">
-        <img src="images/1.jpg" alt="">
-      </div>
-
-      <div class="slide">
-        <img src="images/2.jpg" alt="">
-        <div class="info">
-          <p>the most beautiful appearance</p>
-        </div>
-      </div>
-
-      <div class="slide">
-        <img src="images/3.jpg" alt="">
-        <div class="info">
-          <p>enjoy the winter season through us</p>
-        </div>
-      </div>
-
-      <div class="slide">
-        <img src="images/4.jpg" alt="">
-        <div class="info">
-          <p>takes beautiful nature photographers</p>
-        </div>
-      </div>
-
-      <div class="slide">
-        <img src="images/5.jpg" alt="">
-        <div class="info">
-          <p>visit the colorful place</p>
-        </div>
-      </div>
-
-      <div class="navigation">
-        <div class="btn active"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-      </div>
-
+<div class="main">
+    <div class="content">
+        <h1>Let's discover Albania</h1>
     </div>
 
-<script type="text/javascript">
-  var slides = document.querySelectorAll('.slide');
-    var btns = document.querySelectorAll('.btn');
-    let currentSlide = 1;
+</div>
 
-    // Javascript for image slider manual navigation
-    var manualNav = function(manual){
-      slides.forEach((slide) => {
-        slide.classList.remove('active');
+<article >
+<section>
+<h3>
+    Top 4 reasons to visit Albania
 
-        btns.forEach((btn) => {
-          btn.classList.remove('active');
-        });
-      });
+</h3>
 
-      slides[manual].classList.add('active');
-      btns[manual].classList.add('active');
-    }
+<ol class="dashed">
+<li>Very cheap</li>
+<li> Beautiful beaches</li>
+<li> Amazing bars and restaurants</li>
+<li>Great weather in Summer</li>
 
-    btns.forEach((btn, i) => {
-      btn.addEventListener("click", () => {
-        manualNav(i);
-        currentSlide = i;
-      });
-    });
+</ol>
 
-    // Javascript for image slider autoplay navigation
-    var repeat = function(activeClass){
-      let active = document.getElementsByClassName('active');
-      let i = 1;
 
-      var repeater = () => {
-        setTimeout(function(){
-          [...active].forEach((activeSlide) => {
-            activeSlide.classList.remove('active');
-          });
 
-        slides[i].classList.add('active');
-        btns[i].classList.add('active');
-        i++;
+</section>
 
-        if(slides.length == i){
-          i = 0;
+
+
+    <section>
+       <div class=textcolumns style="float:left;">
+    <h2 style="text-align: center; background-color:rgb(228, 147, 116);">
+    Why to visit Albania
+    
+    </h2>
+   Albania is bounded by Montenegro to the northwest,
+    Kosovo to the northeast, North Macedonia to the east, Greece to the southeast and south, 
+    and the Adriatic and Ionian seas to the west and southwest, respectively. Albania’s immediate western neighbour, Italy, lies some 50 miles (80 km) across the Adriatic Sea. Albania has a length of about 210 miles (340 km) and a width of about 95 miles (150 km).
+    If there is a destination that everyone should visit at least once in his or her lifetime,
+     it is Albania. 
+This small country is one of the last hidden gems of Europe and totally worth a look.
+From the cliffside views of the sea to the charming coastal hamlets, from the vibrant
+capital city Tirana to the stunning mountainous landscapes, visiting Albania will be an experience you'll never regret.
+
+    </div>
+     
+    </section>
+
+    <div class="slider">
+        <div class="slides">
+<!--radio button start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+        <!--radio button end-->
+<!--slide images start-->
+<div class="slide first">
+    <img src="firstpic.jpg" alt="first picture">
+
+</div>
+<div class="slide">
+    <img src="secondpic.jpg" alt="second picture">
+
+</div>
+<div class="slide">
+    <img src="thirdpic.jpg" alt="third picture">
+    
+</div>
+<div class="slide">
+    <img src="4thpic.jpg" alt="fourth picture">
+    
+</div>
+<!--automatic navigation start-->
+<div class="navigation-auto">
+    <div class="auto-btn1"></div>
+    <div class="auto-btn2"></div>
+    <div class="auto-btn3"></div>
+    <div class="auto-btn4"></div>
+
+</div>
+<!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+<label for="radio1" class="manual-btn"></label>
+<label for="radio2" class="manual-btn"></label>
+<label for="radio3" class="manual-btn"></label>
+<label for="radio4" class="manual-btn"></label>
+
+
+        </div>
+                <!--manual navigation end-->
+
+    </div>
+    <!--image slider end-->
+    <script type="text/javascript">
+    var counter=1;
+    setInterval(function(){
+        document.getElementById('radio'+counter).checked=true;
+        counter++;
+        if(counter>4){
+            counter=1;
+
         }
-        if(i >= slides.length){
-          return;
-        }
-        repeater();
-      }, 10000);
-      }
-      repeater();
-    }
-    repeat();
-</script>
+    },5000 );
+    </script>
+    <h2 style="text-align: center; background-color: lightblue;"  >Best places to visit in Albania</h2>
 <br>
-<br>
-<div class="pjesa2">
-  <div class="pjesa2_1">
-    <img src="images/palma.png">
-    <p>Palm Tree Vacation Homes is a family run company which offers a great selection of affordable family-friendly vacation condos, townhomes and pool homes ...</p>
-  </div>
-  <div class="pjesa2_2">
-    <img src="images/kamera.png">
-    <p>Want to learn how to capture special memories with your travel photos?
-     I thought taking pictures on Vacation was a waste of time until I saw some photo of me.</p>
-  </div>
+<section>
+<div class="list">
+
+<ul>
+<li> 
+    <b>Best places for Summer holidays: </b>
+</li>
+
+<div id="gradient1">
+
+    <ul>
+        
+        <li>Dhërmi </li>
+        <li>Himara</li>
+        <li>Saranda</li>
+        <li>Ksamil</li>
+        <li>Vlora</li>
+        <li> Shengjin</li>
+        <li> Durres </li>
+        
+    </ul>
 </div>
 <br>
+</li>
+<li>
+    <b> Best historical places to visit in Albania</b>
+<div id="gradient2">
+    <ul>
+        <li> "Rozafa Castle"- Shkoder</li>
+        <li> "Kruja Castle" - Kruje</li>
+        <li>"Lekuresi Castle"- Saranda</li>
+        <li>"Durres Amphitheatre"-Durres</li>
+        <li>"Apollonia Archaeological Park" Pojan</li>
+       
+    </ul>
+</div>
 <br>
-<div class="klasa3">
-  <div class="atikulli">
-    <h4>Places</h4>
-    <p>you will be surprized with the places that we recommand you, you can visit any continent, go to our <a href="#">Destination</a> page for more</p>
-  </div>
-  <div class="atikulli">
-    <h4>About US</h4>
-    <p>We are the team that will make your dream come true, we will do our best to keep you entertained, to find more <a href="#">About us</a></p>
-  </div>
-  <div class="atikulli">
-    <h4>Comfortable?</h4>
-    <p>You will feel like you are traveling like your imagination with our comfortable planes, to find out go to <a href="#">Tours</a> :)</p>
-  </div>
-  </div>
+</li>
+<li>
+<b>Best places to visit in Winter in Albania</b>
+<div id="gradient3">
+<ul>
+<li>Voskopoje</li>
+<li>Razma</li>
+<li>Vermosh</li>
+<li>Dajti</li>
+</ul>
+
+</div>
+
+</li>
+</ul>
+</div>
 <br>
-<br>
-  <footer>
+</section>
+
+
+</article>
+<footer>
     <div class="art">
-      <div class="content">
+      <div class="footer-content">
         <section>
           <header>Agency</header>
           <a href="#">About</a>
@@ -202,7 +234,9 @@
     </div>
   </footer>
 
-</body>
 
+
+
+</body>
 
 </html>
