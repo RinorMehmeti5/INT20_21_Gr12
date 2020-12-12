@@ -672,3 +672,239 @@ footer input[type='submit']:hover{
 		display: initial;
 		cursor: pointer;
 	}
+	.klasa1 p{
+	font-size: 17.6px;
+	margin-bottom: 19.2px;
+	}
+
+	.klasa1 h2{
+		font-size: 40px;
+	}
+
+	.klasa1 .linqe{
+		margin-top: 24px;
+
+	}
+
+	.klasa1 .linqe a{
+		font-size: 14.4px;
+	}
+
+	.klasa1 .linqe a.simple{
+		padding: 11.2px 22.4px;
+	}
+
+	.klasa1 .linqe a.border{
+		padding: 11.2px 22.4px;
+	}
+
+	.Te_dhena{
+		padding: 96px 112px;
+	}
+
+	.Te_dhena .one{
+		width: 50%;
+	}
+
+	.Te_dhena .one h3{
+		font-size: 32px;
+		padding-bottom: 16px;
+	}
+
+	.Te_dhena .one p{
+		font-size: 17.6px;
+		padding-bottom: 35.2px;
+	}
+	.Te_dhena .one a{
+		font-size: 14.4px;
+	}
+
+	.Te_dhena .two{
+		padding-left: 56px;
+	}
+
+	.Te_dhena .two h3{
+		font-size: 32px;
+	}
+
+	.Te_dhena .two h5{
+		font-size: 16px;
+	}
+
+	.Te_dhena .two p{
+		font-size: 16px;
+		margin-bottom: 9.6px;
+	}
+
+	.klasa2{
+		padding: 96px 112px;
+	}
+
+	.klasa2 .about h2{
+		font-size: 32px;
+		padding-bottom: 22.4px;
+	}
+
+	.klasa2 .about p{
+		font-size: 16px;
+	}
+
+	.klasa2 .travel .team1{
+		width: 48%;
+	}
+
+	.klasa2 .travel .team1 .name{
+		padding: 5px 15px 0 15px;
+	}
+
+	.klasa2 .travel .team1 .name h4{
+		font-size: 17.6px;
+	}
+	.klasa2 .travel .team1 .name i, .klasa2 .travel .team1 .pro i{
+		font-size: 17.6px;
+	}
+
+	.klasa2 .travel .team1 .pro{
+		padding: 0 15px 5px 15px;
+	}
+
+	.class{
+		padding: 96px;
+	}
+
+	.class .paragraph{
+		font-size: 17.6px;
+		padding-bottom: 4px;
+	}
+	.class .h2{
+		font-size: 32px;
+		padding-bottom: 30px;
+	}
+
+	.class .classMenu .team1 .teamDetails{
+		padding-bottom: 7px;
+	}
+	.class .classMenu .team1 .teamDetails .name{
+		padding: 5px 15px 0 15px;
+	}
+
+	.class .classMenu .team1 .teamDetails .name .nameDetalis h4{
+		font-size: 19.2px;
+	}
+
+	.class .classMenu .team1 .teamDetails .name .nameDetalis p{
+		font-size: 16px;
+	}
+
+	.class .classMenu .team1 .teamDetails .name .nameDetalis p span{
+		font-size: 16px;
+	}
+
+	.class .classMenu .team1 .teamDetails .name .num h5{
+		font-size: 14.4px;
+		width: 51.2px;
+		height: 51.2px;
+		line-height: 51.2px;
+	}
+	.class .classMenu .team1 .pro{
+		padding: 15px 15px 30px 15px;
+	}
+	.class .classMenu .team1 .pro p{
+		font-size: 16px;
+	}
+
+	.kontakt{
+		padding: 96px;
+	}
+
+	.kontakt .form h2{
+		font-size: 32px;
+		padding-bottom: 7px;
+	}
+
+	.kontakt .form .submit input, .kontakt .form .submit textarea{
+		padding: 12px;
+		margin:10px 0;
+	}
+
+	.kontakt .form .submit input::placeholder{
+		font-size: 16px;
+	}
+	.kontakt .form .submit textarea::placeholder{
+		font-size: 16px;
+	}
+
+	.kontakt .form .submit a{
+		padding: 13px 0;
+		font-size: 16px;
+		margin:10px 0;
+	}
+
+	.kontakt .harta h2{
+		font-size: 32px;
+		padding-bottom: 7px;
+	}
+	.kontakt .harta p{
+		font-size: 16px;
+		padding-bottom: 20px;
+	}
+
+}
+@media screen and (max-width: 768px){
+	.navigimi h2{
+		font-size: 24px;
+	}
+	.prapavija{
+		background-position: center;
+	}
+
+	.klasa1 p{
+	font-size: 16px;
+	margin-bottom: 16px;
+	}
+
+	.klasa1 h2{
+		font-size: 33.6px;
+	}
+
+	.klasa1 .linqe{
+		margin-top: 16px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.klasa1 .linqe a.simple{
+		padding: 11.2px 22.4px;
+		margin-bottom: 7px;
+	}
+
+	.klasa1 .linqe a.border{
+		padding: 11.2px 22.4px;
+	}
+
+	.Te_dhena{
+		padding: 80px 32px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.Te_dhena .one{
+		width: 70%;
+	}
+
+	.Te_dhena .one a{
+		font-size: 16px;
+	}
+
+	.Te_dhena .two{
+		padding-left: 0;
+		border-left: 0;
+		border-top: 1px solid #666262;
+		width: 70%;
+		margin-top: 27.2px;
+		padding-top: 27.2px;
+	}
