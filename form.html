@@ -3,12 +3,14 @@
         <meta>
      <title>this is a form</title>
         <link rel="stylesheet" href="CSS/form.css">
+        <script src="https://kit.fontawesome.com/0a786c01b2.js" crossorigin="anonymous"></script>
+        <script src="JS/form.js"></script>
     </head>
-
+ 
     <body>
         <div class="divi1">
         </div>
-
+ 
         <div class="divi3">
             <div class="heder">
                 <div class="nendiv">
@@ -16,8 +18,41 @@
             </div>
             <div class="permbajtja">
                 <div class="titull">
-                    <h1>Travel</h1>
+ 
                     <p>Get ticket now...</p>
+                    <h3>fill the require fiels</h3>
+                </div>
+                <div class="formulari">
+                    <div class="ndarje">
+                        <input type="text" id="fname" name="fname" placeholder="Name" required>
+                        <input type="text" id="fsurname" name="fsurname" placeholder="Surname" required>
+                    </div>
+                    <div class="mesazhet">
+                        <p id="id1"></p>
+                        <p id="id2"></p>
+                    </div>
+                    <div class="ndarje">
+                        <input type="text" id="fname" name="fname" placeholder="Telephone number">
+                        <input type="text" id="fsurname" name="fsurname" placeholder="Personal number" required>
+                    </div>                    
+                    <div class="email">
+                        <input type="email" id="femail" name="femail" placeholder="Enter your email">
+                    </div>
+                    <div class="ndarje">
+                        <input type="text" id="fname" name="fname" placeholder="Residence" required>
+                        <input type="text" id="fsurname" name="fsurname" placeholder="Destination" required>
+                    </div>
+                    <div class="ndarje">
+                        <input type="text" id="fname" name="fname" placeholder="Ticket number">
+                        <input type="text" id="fsurname" name="fsurname" placeholder="Price">
+                    </div>
+                    <div class="email">
+                        <input type="email" id="femail" name="femail" placeholder="Your bank account" required>
+                    </div>
+                </div>
+                <div class="dergo">
+                    <button id="butoni1" onclick="Validimi()">Submit</button>
+                    <button id="butoni2">Home</button>
                 </div>
             </div>
         </div>
