@@ -131,6 +131,21 @@ html {
 }
 
 .travel1-img img {
+    /* margin-top: 30px; */
+    width: 25%;
+    height: 390px;
+    margin-left: 6%;
+}
+
+.travel2-img img {
+    margin-top: 50px;
+    width: 25%;
+    height: 390px;
+    margin-left: 6%;
+}
+
+.travel3-img img {
+    margin-top: 60px;
     width: 25%;
     height: 390px;
     margin-left: 6%;
