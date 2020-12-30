@@ -192,6 +192,44 @@
                 <h4>$250.00 </h4>
             </div>
             <div>
+             <img src="images/DURRES.jpg">
+                <h2>Durres</h2>
+                <p> Durresi is the second most populous city of the Republic of Albania and the capital of the eponymous county and municipality.</p>
+                <h4>$150.00 </h4>
+            </div>
+            <div>
+                <img src="images/KSAMILI.jpg">
+                <h2>Ksamil</h2>
+                <p>Ksamil is a village and a former municipality in the riviera of Southern Albania, and part of Butrint National Park</p>
+                <h4>$300.00 </h4>
+            </div>
+        </div>
+        <div class="upper">
+            <div>
+                <img src="images/VLORE.jpg">
+                <h2>Vlore</h2>
+                <p>Vlore lies in the southwestern coastal region of Albania, and the northern part the Ionian Sea.</p>
+                <h4>$345.00 </h4>
+            </div>
+            <div>
+                <img src="images/pogradec.jpg">
+                <h2>Pogradec</h2>
+                <p>The city of Pogradec was built on the southwestern shores of Lake Ohrid and is one of the most notable cities of Albania</p>
+                <h4>$100.00 </h4>
+            </div>
+            <div>
+                <img src="images/SHENGJIN.jpg">
+                <h2>Shengjin</h2>
+                <p>Shëngjin is a coastal town and a former municipality in Lezhë County, northwestern Albania. </p>
+                <h4>$150.00 </h4>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    
+    
+    </article>
 </section>
 
 
