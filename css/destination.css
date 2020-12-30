@@ -92,6 +92,18 @@ html {
     background-position: center;
     position: relative;
 }
+.contenth1{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.contenth1 h1{
+    font-size: 100px;
+}
+.contenth1 p{
+    font-size: 20px;
+    font-style: italic;
+}
 
 footer {
     background-color: #998c85;
