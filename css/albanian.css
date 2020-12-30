@@ -302,4 +302,34 @@ cities {
               height: 200px;
             }
 
-/*
+.last{
+              width: 90%;
+              height: 900px;
+              margin: 50px auto;
+              display: flex;
+              justify-content: space-around;
+            }
+            .last .left{
+              width: 60%;
+              height: 100%;
+              height: auto;
+              height: 100%;
+            }
+            .last img{
+              width: 40%;
+              height: 100%;
+            }
+            .last .left .last3{
+              display: flex;
+              justify-content: space-around;
+              margin: 10px auto;
+            }
+            .last .left .last3 img{
+              width: 40%;
+              margin: 5%;
+              height: 200px;
+            }
+            .last .left .last3 div{
+              width: 40%;
+              margin: 5%;
+            }
