@@ -182,6 +182,16 @@
 </ul>
 </div>
 <br>
+<h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;background-color:lightgray">Places for Summer holidays in Albania</h2>
+    <div class="cities">
+        <div class="upper">
+            <div>
+                <img src="images/SARANDA.jpg">
+                <h2>Saranda</h2>
+                <p>The city is known for its blue deep waters of the Mediterranean.</p>
+                <h4>$250.00 </h4>
+            </div>
+            <div>
 </section>
 
 
