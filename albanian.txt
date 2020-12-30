@@ -230,8 +230,47 @@
     
     
     </article>
+<h2 style="text-align: center;background-color: lightgray;">Historical places to visit in Albania</h2>
+    <div class="last">
+        <div class="left">
+            <div class="last3">
+                <img src="images/Kruje-Castle.jpg">
+                <div>
+                    <h3> Kruje Castle</h3>
+                    <p>Kruje played  important parts in history of Albania in different times.
+                         Kruje castle is the most interesting and main attraction of this town.
+                          This castle played an important role when a series of sieges took place from middle
+                           of to late 15th century by Skanderbeg, a rebellious Ottoman against Ottoman 
+                           empire in Albania.</p>
+                </div>
+            </div>
+            <div class="last3">
+                <img src="images/Berat-Castle.jpg">
+                <div>
+                    <h3>Berat Castle</h3>
+                    <p>Berat castle overlooking the city is the most impressive attraction.
+                         This is an ancient castle that can be dated back to Roman time.
+                          But the present structure belongs to 13th century AD.
+                           You can see ruins of mosques, churches inside the castle.
+                            there is museum inside that can be visited also. Berat town is a UNESCO site of the country.</p>
+                </div>
+            </div>
+            <div class="last3">
+                <img src="images/The-Durres-Amphitheater.jpg">
+                <div>
+                    <h3>The Durres Amphitheater</h3>
+                    <p>f you want to conclude your historic tour of Albania then you can do this visiting the world famous Durres amphitheater in the city of Durres.
+                         This amphitheater is said to be one of the largest amphitheaters built by the Romans in Europe.
+                          It is also said that this is the largest in Balkan region.
+                           Historians say that it was built during the rule of emperor Trajan in 2nd century AD.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
 </section>
-
+      </section>
 
 
 </body>
