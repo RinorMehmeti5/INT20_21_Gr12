@@ -98,11 +98,73 @@ html {
     padding-top: 180px;
 }
 .contenth1 h1{
-    font-size: 100px;
+    font-size: 130px;
+    font-family: 'Indie Flower', cursive;
 }
 .contenth1 p{
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
+    font-family: 'Indie Flower', cursive;
+}
+
+/*--Places--*/
+
+#places{
+    width: 100%;
+    padding: 70px 0;
+}
+.contenth2{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.contenth2 p{
+    margin: auto;
+    font-size: 25px;
+    color: #7CB3F1;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth3{
+    width: 80%;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.contenth3 p{
+    font-family: 'Indie Flower', cursive;
+}
+.places{
+    flex-basis: 50%;
+}
+.places h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contenth-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+.contenth-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.contenth-img img{
+    width: 70%;
+    border-radius: 10px;
 }
 
 footer {
