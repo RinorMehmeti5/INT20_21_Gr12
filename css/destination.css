@@ -116,6 +116,7 @@ html {
 .contenth2{
     text-align: center;
     padding-bottom: 70px;
+    margin-top: 50px;
 }
 .contenth2 p{
     margin: auto;
@@ -158,6 +159,19 @@ html {
     padding: 0 20px;
     text-align: initial;
 }
+table{
+    width: 470px;
+    /*border-spacing: 40px;*/
+}
+th{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+table, th, td{
+    border: 1px solid #171819;
+    border-collapse: collapse;
+    font-family: 'Indie Flower', cursive;
+}
 .contenth-img{
     flex-basis: 50%;
     margin: auto;
@@ -166,7 +180,36 @@ html {
     width: 70%;
     border-radius: 10px;
 }
+.contenth2-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.contenth2-img img{
+    margin-top: 60px;
+    width: 28%;
+    height: 420px;
+    border-radius: 10px;
+    position: relative; 
+    left: 120px; 
+    top: 2px;
+}
+.contenth4{
+    width: 80%;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    text-align: right;
+}
+.places2 h1{
+    font-family: 'Indie Flower', cursive;
+}
+.contenth4-text p{
+    font-family: 'Indie Flower', cursive;
+}
 
+}
 footer {
     background-color: #998c85;
     line-height: 24px;
