@@ -1,15 +1,17 @@
-<!DOCTYPE html>
+   
 <html>
+<head>
+<title> Albania</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Albania</title>
-    <link rel="stylesheet" href="albania.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="stylesheet" href="css/albanian1.css">
+<script src="https://kit.fontawesome.com/0a786c01b2.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
-
 <body>
     <div class="navigimi">
         <img src="images/real_logo2.png">
-        <ul id="linqet_e_navigimit">
+        <ul id="linqet_e_navigimit">    
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Albania</a></li>
             <li><a href="#">Destination</a></li>
@@ -22,8 +24,8 @@
         <i id="bar" class="fas fa-bars" aria-hidden="true"></i>
     </div>
     <div class="main">
-        <div class="content">
-            <h1>Let's discover Albania</h1>
+        <div class="content1">
+            <h1 >Let's discover Albania</h1>
         </div>
     
     </div>
@@ -35,7 +37,7 @@
     
     </h3>
  
-    <ol >
+    <ol class="lista" >
     <li>Very cheap</li>
     <li>Beautiful beaches</li>
     <li>Amazing bars and restaurants</li>
@@ -49,9 +51,10 @@
     
     
         <section>
-           <div class=textcolumns style="float:left;">
-        <h2 style="text-align: center; background-color:lightgray;">
-        Why to visit Albania
+            <h2 style="text-align: center; background-color:lightgray;">
+                Why to visit Albania
+           <div class=textcolumn style="float:center;">
+        
         
         </h2>
        Albania is bounded by Montenegro to the northwest,
@@ -66,123 +69,123 @@
         </div>
          
         </section>
-
-    <div class="slider">
-        <div class="slides">
-<!--radio button start-->
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-        <!--radio button end-->
-<!--slide images start-->
-<div class="slide first">
-    <img src="firstpic.jpg" alt="first picture">
-
-</div>
-<div class="slide">
-    <img src="secondpic.jpg" alt="second picture">
-
-</div>
-<div class="slide">
-    <img src="thirdpic.jpg" alt="third picture">
     
-</div>
-<div class="slide">
-    <img src="4thpic.jpg" alt="fourth picture">
+        <div class="slider">
+            <div class="slides">
+    <!--radio button start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+            <!--radio button end-->
+    <!--slide images start-->
+    <div class="slide first">
+        <img src="images/firstpic.jpg" alt="first picture">
     
-</div>
-<!--automatic navigation start-->
-<div class="navigation-auto">
-    <div class="auto-btn1"></div>
-    <div class="auto-btn2"></div>
-    <div class="auto-btn3"></div>
-    <div class="auto-btn4"></div>
-
-</div>
-<!--automatic navigation end-->
-        </div>
-        <!--manual navigation start-->
-        <div class="navigation-manual">
-<label for="radio1" class="manual-btn"></label>
-<label for="radio2" class="manual-btn"></label>
-<label for="radio3" class="manual-btn"></label>
-<label for="radio4" class="manual-btn"></label>
-
-
-        </div>
-                <!--manual navigation end-->
-
     </div>
-    <!--image slider end-->
-    <script type="text/javascript">
-    var counter=1;
-    setInterval(function(){
-        document.getElementById('radio'+counter).checked=true;
-        counter++;
-        if(counter>4){
-            counter=1;
-
-        }
-    },5000 );
-    </script>
-    <h2 style="text-align: center; background-color: lightblue;"  >Best places to visit in Albania</h2>
-<br>
-<section>
-<div class="list">
-
-<ul>
-<li> 
-    <b>Best places for Summer holidays: </b>
-</li>
-
-<div id="gradient1">
-
-    <ul>
+    <div class="slide">
+        <img src="images/secondpic.jpg" alt="second picture">
+    
+    </div>
+    <div class="slide">
+        <img src="images/thirdpic.jpg" alt="third picture">
         
-        <li>Dhërmi </li>
-        <li>Himara</li>
-        <li>Saranda</li>
-        <li>Ksamil</li>
-        <li>Vlora</li>
-        <li> Shengjin</li>
-        <li> Durres </li>
+    </div>
+    <div class="slide">
+        <img src="images/4thpic.jpg" alt="fourth picture">
         
-    </ul>
-</div>
-<br>
-</li>
-<li>
-    <b> Best historical places to visit in Albania</b>
-<div id="gradient2">
+    </div>
+    <!--automatic navigation start-->
+    <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+    
+    </div>
+    <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+    
+    
+            </div>
+                    <!--manual navigation end-->
+    
+        </div>
+        <!--image slider end-->
+        <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio'+counter).checked=true;
+            counter++;
+            if(counter>4){
+                counter=1;
+    
+            }
+        },5000 );
+        </script>
+        <h2 style="text-align: center; background-color: lightgray;"  >Best places to visit in Albania</h2>
+    <br>
+    <section>
+    <div class="list">
+    
     <ul>
-        <li> "Rozafa Castle"- Shkoder</li>
-        <li> "Kruja Castle" - Kruje</li>
-        <li>"Lekuresi Castle"- Saranda</li>
-        <li>"Durres Amphitheatre"-Durres</li>
-        <li>"Apollonia Archaeological Park" Pojan</li>
-       
+     <li> 
+        <b>Best places for Summer holidays: </b>
+     </li>
+       <li>
+       <div id="gradient1">
+    
+        <ul>
+            
+            <li>Dhërmi </li>
+            <li>Himara</li>
+            <li>Saranda</li>
+            <li>Ksamil</li>
+            <li><a href="#Vlore">Vlora</a></li>
+            <li> Shengjin</li>
+            <li> Durres </li>
+            
+        </ul>
+    </div>
+    <br>
+    </li>
+    <li>
+        <b> Best historical places to visit in Albania</b>
+    <div id="gradient2">
+        <ul>
+            <li> "Rozafa Castle"- Shkoder</li>
+            <li> "Kruja Castle" - Kruje</li>
+            <li>"Lekuresi Castle"- Saranda</li>
+            <li>"Durres Amphitheatre"-Durres</li>
+            <li>"Apollonia Archaeological Park" Pojan</li>
+           
+        </ul>
+    </div>
+    <br>
+    </li>
+    <li>
+    <b>Best places to visit in Winter in Albania</b>
+    <div id="gradient3">
+    <ul>
+    <li>Voskopoje</li>
+    <li>Razma</li>
+    <li>Vermosh</li>
+    <li>Dajti</li>
     </ul>
-</div>
-<br>
-</li>
-<li>
-<b>Best places to visit in Winter in Albania</b>
-<div id="gradient3">
-<ul>
-<li>Voskopoje</li>
-<li>Razma</li>
-<li>Vermosh</li>
-<li>Dajti</li>
-</ul>
-
-</div>
-
-</li>
-</ul>
-</div>
-<br>
-<h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;background-color:lightgray">Places for Summer holidays in Albania</h2>
+    
+    </div>
+    
+    </li>
+    </ul>
+    </div>
+    <br>
+    <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;background-color:lightgray">Places for Summer holidays in Albania</h2>
     <div class="cities">
         <div class="upper">
             <div>
@@ -192,7 +195,7 @@
                 <h4>$250.00 </h4>
             </div>
             <div>
-             <img src="images/DURRES.jpg">
+                <img src="images/DURRES.jpg">
                 <h2>Durres</h2>
                 <p> Durresi is the second most populous city of the Republic of Albania and the capital of the eponymous county and municipality.</p>
                 <h4>$150.00 </h4>
@@ -207,7 +210,7 @@
         <div class="upper">
             <div>
                 <img src="images/VLORE.jpg">
-                <h2>Vlore</h2>
+                <h2 id="Vlore">Vlore</h2>
                 <p>Vlore lies in the southwestern coastal region of Albania, and the northern part the Ionian Sea.</p>
                 <h4>$345.00 </h4>
             </div>
@@ -230,7 +233,8 @@
     
     
     </article>
-<h2 style="text-align: center;background-color: lightgray;">Historical places to visit in Albania</h2>
+
+      <h2 style="text-align: center;background-color: lightgray;">Historical places to visit in Albania</h2>
     <div class="last">
         <div class="left">
             <div class="last3">
@@ -280,10 +284,109 @@
         
         
     </div>
-</section>
+
       </section>
+      <!--<section>
+<button class="accordion">
+    "Summer Tourism"
+</button>
+<div class="panel">
+    <code style="font-size: 110%;">
+    <figure class="a">
+        <img src="images/sarande.jpg" alt="Summer Tourism" width="200" height="155" onmouseover="rritur(this)" onmouseout="normal(this)" style="height:140px; width:180px;">
+        <figcaption>Summer Tourism photo</figcaption>
+    </figure>
+    " 
+    Ecotourism is a form of tourism involving visiting fragile, pristine, and relatively undisturbed natural areas,
+    intended as a low-impact and often small scale alternative to standard commercial mass tourism.
+    It means responsible travel to natural areas conserving the environment and improving the well-being of the local people.Its purpose may be to educate the traveler,
+    to provide funds for ecological conservation, to directly benefit the economic development and
+    political empowerment of local communities, or to foster respect for different cultures and for human rights. Since the 1980s,
+    ecotourism has been considered a critical endeavor by environmentalists, so that future generations may experience destinations relatively untouched by human intervention.
+    Several university programs use this description as the working definition of ecotourism."
+    
+    </code>
 
+</div>
+<button class="accordion active">
+    "Cultural Tourism"
+</button>
+<div class="panel show">
+    <code style="font-size: 110%;">
+    <figure class="a">
+        <img src="images/ksamil.jpg" alt="Cultural Tourism" width="200px" height="140px" onmouseover="rritur(this)" onmouseout="normal(this)" style="height:140px; width:180px;">
+        <figcaption>Cultural Tourism photo</figcaption>
+    </figure>
+    
+  "Cultural Tourism (or culture tourism) is the subset of tourism concerned with a traveler's engagement with a country or region's culture,
+  specifically the lifestyle of the people in those geographical areas, the history of those people, their art, architecture, religion(s), and other elements that helped shape their way of life.
+Cultural tourism includes tourism in urban areas, particularly historic or large cities and their cultural facilities such as museums and theatres.
+It can also include tourism in rural areas showcasing the traditions of indigenous cultural communities (i.e. festivals, rituals), and their values and lifestyle,
+as well as niches like industrial tourism and creative tourism."
+    </code>
+</div>
+<button class="accordion active">
+    "Geotourism"
+</button>
+<div class="panel show">
+    <code style="font-size: 110%;">
+    <figure style="float:left">
+    <img src="images/Butrint.jpg" alt="Geotourism" width="180" height="150" onmouseover="rritur(this)" onmouseout="normal(this)" style="height:140px; width:180px;">
+    <figcaption>Geotourism</figcaption>
+    </figure>
+    
+ " Geotourism deals with the natural and built environments.
+  Geotourism was first defined (Hose, 1995) in England.There are two viewpoints of geotourism:"
+    </code>
+</div>
+<script>
+    var acc= documet.getElementByClassName("accordion");
+    var i;
+    for(i=0;i<acc.length;i++){
+        acc[i].onclick=function(){
+            this.classList.toggle("actiove");
+            this.nextElementSibling.classList.toggle("show");
+        }
+    }
+</script>
 
-</body>
-
-</html>
+      </section> -->
+      <footer>
+        <div class="art">
+          <div class="content">
+            <section>
+              <header>Agency</header>
+              <a href="#">About</a>
+              <a href="#">Contact us</a>
+              <a href="#">Team</a>
+              <a href="#">Blod</a>
+            </section>
+            <section>
+              <header>Development</header>
+              <a href="#">Website</a>
+              <a href="#">Mobile Aplication</a>
+              <a href="#">UI & UX Desing</a>
+            </section>
+            <section>
+              <header>More and more</header>
+              <form action="">
+                <input type="email" placeholder="Your email" id="">
+                <input type="submit" value="Subscribe now">
+              </form>
+              <div class="social">
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-telegram-plane"></i>
+              </div>
+            </section>
+          </div>
+          <div class="notice">
+            Copyright protected &copy;
+            <strong>All rights reserved</strong>
+          </div>
+        </div>
+      </footer>
+      </body>
+      </html>
