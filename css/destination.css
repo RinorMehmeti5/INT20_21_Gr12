@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+body{
+    background: linear-gradient(#fff,#B6E9FF);
+}
 
 html {
     scroll-behavior: smooth;
@@ -109,6 +112,21 @@ html {
 
 /*--Places--*/
 
+.canada{
+    text-align: center;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+.canada p{
+    margin: auto;
+    font-size: 25px;
+    color: #171819;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+}
 #places{
     width: 100%;
     padding: 70px 0;
@@ -121,7 +139,7 @@ html {
 .contenth2 p{
     margin: auto;
     font-size: 25px;
-    color: #7CB3F1;
+    color: #171819;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -136,6 +154,8 @@ html {
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    flex-direction: row;
+    justify-content: center;
 }
 .contenth3 p{
     font-family: 'Indie Flower', cursive;
@@ -160,7 +180,7 @@ html {
     text-align: initial;
 }
 table{
-    width: 470px;
+    width: 100%;
     /*border-spacing: 40px;*/
 }
 th{
@@ -180,36 +200,391 @@ table, th, td{
     width: 70%;
     border-radius: 10px;
 }
-.contenth2-img{
-    flex-basis: 50%;
-    margin: auto;
-}
-.contenth2-img img{
-    margin-top: 60px;
-    width: 28%;
-    height: 420px;
-    border-radius: 10px;
-    position: relative; 
-    left: 120px; 
-    top: 2px;
+
+/*--Places2--*/
+
+#places2{
+    width: 100%;
+    padding: 70px 0;
 }
 .contenth4{
+    text-align: center;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+.contenth4 p{
+    margin: auto;
+    font-size: 25px;
+    color: #171819;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth5{
     width: 80%;
     margin: auto;
     color: black;
     display: flex;
     flex-wrap: wrap;
-    align-items: right;
-    text-align: right;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenth5 p{
+    font-family: 'Indie Flower', cursive;
+}
+.places2{
+    flex-basis: 50%;
 }
 .places2 h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: black;
     font-family: 'Indie Flower', cursive;
 }
-.contenth4-text p{
+.contenth2-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contenth2-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+.table{
+    width: 100%;
+    /*border-spacing: 40px;*/
+}
+.th{
+    text-align: center;
     font-family: 'Indie Flower', cursive;
+}
+.table, th, td{
+    border: 1px solid #171819;
+    border-collapse: collapse;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth2-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.contenth2-img img{
+    width: 70%;
+    border-radius: 10px;
 }
 
+/*--Places3--*/
+
+#places3{
+    width: 100%;
+    padding: 70px 0;
 }
+.contenth6{
+    text-align: center;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+.contenth6 p{
+    margin: auto;
+    font-size: 25px;
+    color: #171819;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth7{
+    width: 80%;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenth7 p{
+    font-family: 'Indie Flower', cursive;
+}
+.places3{
+    flex-basis: 50%;
+}
+.places3 h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth3-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contenth3-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+.table{
+    width: 100%;
+    /*border-spacing: 40px;*/
+}
+.th{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.table, th, td{
+    border: 1px solid #171819;
+    border-collapse: collapse;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth3-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.contenth3-img img{
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/*--Places4--*/
+
+#places4{
+    width: 100%;
+    padding: 70px 0;
+}
+.contenth8{
+    text-align: center;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+.contenth8 p{
+    margin: auto;
+    font-size: 25px;
+    color: #171819;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth9{
+    width: 80%;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenth9 p{
+    font-family: 'Indie Flower', cursive;
+}
+.places4{
+    flex-basis: 50%;
+}
+.places4 h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth4-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contenth4-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+.table{
+    width: 100%;
+    /*border-spacing: 40px;*/
+}
+.th{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.table, th, td{
+    border: 1px solid #171819;
+    border-collapse: collapse;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth4-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.contenth4-img img{
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/*--Places5--*/
+
+#places5{
+    width: 100%;
+    padding: 70px 0;
+}
+.contenth10{
+    text-align: center;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+.contenth10 p{
+    margin: auto;
+    font-size: 25px;
+    color: #171819;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth11{
+    width: 80%;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenth11 p{
+    font-family: 'Indie Flower', cursive;
+}
+.places5{
+    flex-basis: 50%;
+}
+.places5 h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth5-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contenth5-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+.table{
+    width: 100%;
+    /*border-spacing: 40px;*/
+}
+.th{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.table, th, td{
+    border: 1px solid #171819;
+    border-collapse: collapse;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth5-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.contenth5-img img{
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/*--Places6--*/
+
+#places6{
+    width: 100%;
+    padding: 70px 0;
+}
+.contenth12{
+    text-align: center;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+.contenth12 p{
+    margin: auto;
+    font-size: 25px;
+    color: #171819;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth13{
+    width: 80%;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenth13 p{
+    font-family: 'Indie Flower', cursive;
+}
+.places6{
+    flex-basis: 50%;
+}
+.places6 h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth6-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contenth6-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+.table{
+    width: 100%;
+    /*border-spacing: 40px;*/
+}
+.th{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.table, th, td{
+    border: 1px solid #171819;
+    border-collapse: collapse;
+    font-family: 'Indie Flower', cursive;
+}
+.contenth6-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.contenth6-img img{
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+}
+
 footer {
     background-color: #998c85;
     line-height: 24px;
