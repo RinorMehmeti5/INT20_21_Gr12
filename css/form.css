@@ -49,4 +49,13 @@ body{
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
+.permbajtja{
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
    
