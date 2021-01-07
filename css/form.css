@@ -80,3 +80,7 @@ body{
     color: rgb(214, 111, 15);
     border-bottom: 1px solid rgb(41, 89, 179) ;
 }
+.titull i{
+    color: rgb(214, 111, 15);
+    font-size: 15px;
+}
