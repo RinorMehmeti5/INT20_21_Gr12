@@ -29,4 +29,15 @@ body{
     flex-direction: row;
     border-radius: 20px;
 }
+.heder{
+    height: 100%;
+    width: 35%;
+    background-image: url(../images/foto22.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
    
