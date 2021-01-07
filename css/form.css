@@ -40,4 +40,13 @@ body{
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
+.nendiv{
+    background: linear-gradient(#4752ce,#da450b);
+	width: 100%;
+	height: 100%;
+    opacity: 0.3;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
    
