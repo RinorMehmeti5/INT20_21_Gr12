@@ -91,3 +91,17 @@ body{
     padding: 0%;
     font-weight: bold;
 }
+.formulari{
+    width: 90%;
+    height: 70%;
+    margin:auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow:
+  0 0px 60px rgba(233, 219, 219, 0.233),
+  0 0px 50px rgba(233, 219, 219, 0.333),
+  0 0px 30px rgba(233, 219, 219, 0.417),
+  0 0px 16px rgba(233, 219, 219, 0.517),
+  0 0px 20px rgba(233, 219, 219, 0.75);  
+  padding-top: 20px;
+}
