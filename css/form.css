@@ -64,3 +64,10 @@ body{
     margin-bottom: 20px;
     justify-content: center;
 }
+.titull h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+    color: rgb(41, 89, 179);
+}
