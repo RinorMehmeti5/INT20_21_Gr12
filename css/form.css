@@ -104,10 +104,30 @@ body{
   0 0px 16px rgba(233, 219, 219, 0.517),
   0 0px 20px rgba(233, 219, 219, 0.75);  
   padding-top: 20px;
-}.ndarje{
+}
+.ndarje{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 10px;
 }
+#fname , #ftel{
+    width: 45%;
+    padding: 0px 8px;
+    margin:8px 0;
+    border: 1px solid rgb(214, 111, 15);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    font-weight: 800;
+}
+#fname::placeholder,#fsurname::placeholder, #ftel::placeholder, #fpersonal::placeholder {
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    font-weight: 800;
+    padding: 0%;
+}
+
