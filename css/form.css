@@ -84,3 +84,10 @@ body{
     color: rgb(214, 111, 15);
     font-size: 15px;
 }
+.titull p{
+    font-size: 30px;
+    font-family: Bradley Hand ITC;
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+}
