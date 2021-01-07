@@ -71,3 +71,12 @@ body{
     padding: 0%;
     color: rgb(41, 89, 179);
 }
+.titull h3{
+    margin:auto;
+    width: 30%;
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    padding: 0%;
+    color: rgb(214, 111, 15);
+    border-bottom: 1px solid rgb(41, 89, 179) ;
+}
