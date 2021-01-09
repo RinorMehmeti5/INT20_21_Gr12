@@ -27,7 +27,7 @@
  }
  .permbajtja .section2:nth-child(2)
  {
-   background: url(images/Summer1.jpg);
+   background: url(../images/Summer1.jpg);
    background-size: cover;
    background-attachment: fixed;
  }
