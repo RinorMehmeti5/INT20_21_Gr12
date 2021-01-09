@@ -302,7 +302,26 @@
               width: 40%;
               margin: 5%;
             }
-  
+  .seasons p{
+  font-family: cursive;
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+
+}
+ .seasons .button 
+ {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7aa8b7;
+  border-radius: 6px;
+  outline: none;
+  margin-left: 50%;
+ }
+ 
   footer{
     background-color: #998c85;
     line-height: 24px;
