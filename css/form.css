@@ -161,3 +161,31 @@ input[type=email]{
     margin:8px 0;
     padding: 12px 8px;
 }
+.dergo{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:auto;
+    margin-top: 20px;
+}
+
+#butoni1{
+    padding: 16px 40px;
+    background-color: rgb(14, 47, 138);
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#butoni2{
+    padding: 16px 40px;
+    background-color: rgb(214, 111, 15);
+    box-sizing: border-box;
+    border:none;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
