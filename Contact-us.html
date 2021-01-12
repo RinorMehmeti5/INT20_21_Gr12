@@ -10,17 +10,21 @@
     <body>
         <header>
             <nav> 
-                    <ul id="linqet_e_navigimit">
-                        <li><img src="images/loggo.png"></li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Albania</a></li>
-                        <li><a href="#">Destination</a></li>
-                        <li><a href="#">Tours</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <div class="ikona">
-                            <a href="#">Get ticket</a>
-                        </div>
+            <div class="navigimi">
+            <img src="images/loggo.png">
+            <ul class="linqet_e_navigimit">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Albania</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Contact us</a></li>
+                <div class="button11" id="button-5">
+                    <div id="translate"></div>
+                    <a href="#">Get Ticket</a>
+                </div>
                     </ul>
+                <i id="bar" class="fas fa-bars" aria-hidden="true"></i>
+	           </div>
             </nav>
         </header>
         
@@ -63,7 +67,7 @@
                             </p>
                         </div>
                         <div class="arrow-btn">
-                            <a href="#section-forum" class="btn-down" title="Click here to contact us"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+                            <a id="scroll-to-forum" class="btn-down" title="Click here to contact us"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +75,7 @@
             
         </section>
         
-        <section class="section-forum" id="section-forum">
+        <section class="section-forum section-forum-after" >
             <div class="row">
                 <h1>We are happy to hear from you</h1>
             </div>
@@ -204,9 +208,45 @@
             </div>
         </section>
         <footer>
-            <div class="row">
-                <p>Copyright &copy; 2021 by HUG THE WORLD. <span>ALL RIGHTS RESERVED</span></p>
-            </div>
+            <div class="art">
+      <div class="content">
+        <section>
+          <header id="agency">Agency</header>
+          <a href="#agency">About</a>
+          <a href="Contact-us.html">Contact us</a>
+          <a href="#">Team</a>
+          <a href="#">Blod</a>
+        </section>
+        <section>
+          <header>Development</header>
+          <a href="home.html">Website</a>
+          <a href="#">Mobile Aplication</a>
+          <a href="#">UI & UX Desing</a>
+        </section>
+        <section>
+          <header>More and more</header>
+          <form action="">
+            <input type="email" placeholder="Your email" id="">
+            <input type="submit" value="Subscribe now">
+          </form>
+          <div class="social">
+            <ion-icon name="logo-youtube" class="fab fab-youtube"></ion-icon>
+            <ion-icon name="logo-facebook" class="fab fab-facebook"></ion-icon>
+            <ion-icon name="logo-twitter" class="fab fab-twitter"></ion-icon>
+            <ion-icon name="logo-instagram" class="fab fab-instagram"></ion-icon>
+            <ion-icon name="paper-plane-outline" class="fab fab-paper"></ion-icon>
+          </div>
+        </section>
+      </div>
+      <div class="notice">
+        Copyright protected &copy;
+        <strong>All rights reserved</strong>
+      </div>
+    </div>
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/Contact-us.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js">
+        </script>
     </body>
 </html>
