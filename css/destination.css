@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 body{
     background: linear-gradient(#fff,#B6E9FF);
 }
@@ -38,6 +39,7 @@ html {
 	list-style: none;
 	padding-right:  30px;
 }
+
 #linqet_e_navigimit li a{
 	text-decoration: none;
 	font-size: 20px;
@@ -60,6 +62,7 @@ html {
 	border-left: 1px solid#3536368e;
 	transition: all 0.1s ease 0.1s;
 }
+
 #linqet_e_navigimit li a:active{
 	border-bottom: 1px solidd#3536368e;
 	background-color: #f0eae6;
@@ -80,12 +83,14 @@ html {
   justify-content: center;
   overflow: hidden;
 }
+
 .button11 a{
   color: #0000008e;
   text-decoration: none;
   letter-spacing: 1px;
   font-weight: bold;
 }
+
 #button-5 {
   position: relative;
   overflow: hidden;
@@ -123,24 +128,27 @@ html {
 
 .main {
     padding-top: 120px;
-    height: 580px;
+    height: 726px;
     background-image: url("plane.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
 }
+
 .contenth1{
     text-align: center;
     color: white;
-    padding-top: 80px;
+    padding-top: 150px;
 }
+
 .contenth1 h1{
-    font-size: 110px;
+    font-size: 130px;
     font-family: 'Indie Flower', cursive;
 }
+
 .contenth1 p{
-    font-size: 30px;
-    font-style: italic;
+    font-size: 35px;
+    font-style: normal;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -149,37 +157,42 @@ html {
 .canada{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .canada p{
     margin: auto;
-    font-size: 40px;
-    color: #171819;
-    font-weight: normal;
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    font-family: 'Great Vibes', cursive;
-}
-#places{
-    width: 100%;
-    padding: 70px 0;
-}
-.contenth2{
-    text-align: center;
-    padding-bottom: 10px;
-    margin-top: 50px;
-}
-.contenth2 p{
-    margin: auto;
-    font-size: 25px;
+    font-size: 50px;
     color: #171819;
     font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
+    font-family: 'Great Vibes', cursive;
+}
+
+#places{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.contenth2{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.contenth2 p{
+    margin: auto;
+    font-size: 30px;
+    color: #171819;
+    font-weight: normal;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
     font-family: 'Indie Flower', cursive;
 }
+
 .contenth3{
     width: 80%;
     margin: auto;
@@ -191,47 +204,63 @@ html {
     flex-direction: row;
     justify-content: center;
 }
+
 .contenth3 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places{
     flex-basis: 50%;
 }
+
 .places h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
+
 table{
     width: 100%;
     /*border-spacing: 40px;*/
 }
+
 th{
     text-align: center;
     font-family: 'Indie Flower', cursive;
+    font-size: 20px;
 }
+
 table, th, td{
     border: 1px solid #171819;
     border-collapse: collapse;
     font-family: 'Indie Flower', cursive;
+    font-size: 20px;
 }
+
 .contenth-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth-img img{
     width: 70%;
+    height: 580px;
     border-radius: 10px;
 }
 
@@ -241,21 +270,24 @@ table, th, td{
     width: 100%;
     padding: 70px 0;
 }
+
 .contenth4{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .contenth4 p{
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #171819;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
     font-family: 'Great Vibes', cursive;
 }
+
 .contenth5{
     width: 85%;
     margin: auto;
@@ -267,47 +299,45 @@ table, th, td{
     flex-direction: row-reverse;
     justify-content: center;
 }
+
 .contenth5 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places2{
     flex-basis: 50%;
 }
+
 .places2 h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth2-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth2-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
-.table{
-    width: 100%;
-    /*border-spacing: 40px;*/
-}
-.th{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-.table, th, td{
-    border: 1px solid #171819;
-    border-collapse: collapse;
-    font-family: 'Indie Flower', cursive;
-}
+
 .contenth2-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth2-img img{
     width: 70%;
+    height: 580px;
     border-radius: 10px;
 }
 
@@ -317,21 +347,24 @@ table, th, td{
     width: 100%;
     padding: 70px 0;
 }
+
 .contenth6{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .contenth6 p{
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #171819;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
     font-family: 'Great Vibes', cursive;
 }
+
 .contenth7{
     width: 80%;
     margin: auto;
@@ -343,48 +376,45 @@ table, th, td{
     flex-direction: row;
     justify-content: center;
 }
+
 .contenth7 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places3{
     flex-basis: 50%;
 }
+
 .places3 h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth3-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth3-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
-.table{
-    width: 100%;
-    /*border-spacing: 40px;*/
-}
-.th{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-.table, th, td{
-    border: 1px solid #171819;
-    border-collapse: collapse;
-    font-family: 'Indie Flower', cursive;
-}
+
 .contenth3-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth3-img img{
     width: 70%;
-    height: 500px;
+    height: 580px;
     border-radius: 10px;
 }
 
@@ -394,21 +424,24 @@ table, th, td{
     width: 100%;
     padding: 70px 0;
 }
+
 .contenth8{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .contenth8 p{
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #171819;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
     font-family: 'Great Vibes', cursive;
 }
+
 .contenth9{
     width: 85%;
     margin: auto;
@@ -420,48 +453,45 @@ table, th, td{
     flex-direction: row-reverse;
     justify-content: center;
 }
+
 .contenth9 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places4{
     flex-basis: 50%;
 }
+
 .places4 h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth4-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth4-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
-.table{
-    width: 100%;
-    /*border-spacing: 40px;*/
-}
-.th{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-.table, th, td{
-    border: 1px solid #171819;
-    border-collapse: collapse;
-    font-family: 'Indie Flower', cursive;
-}
+
 .contenth4-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth4-img img{
     width: 70%;
-    height: 500px;
+    height: 580px;
     border-radius: 10px;
 }
 
@@ -471,21 +501,24 @@ table, th, td{
     width: 100%;
     padding: 70px 0;
 }
+
 .contenth10{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .contenth10 p{
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #171819;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
     font-family: 'Great Vibes', cursive;
 }
+
 .contenth11{
     width: 80%;
     margin: auto;
@@ -497,48 +530,45 @@ table, th, td{
     flex-direction: row;
     justify-content: center;
 }
+
 .contenth11 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places5{
     flex-basis: 50%;
 }
+
 .places5 h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth5-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth5-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
-.table{
-    width: 100%;
-    /*border-spacing: 40px;*/
-}
-.th{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-.table, th, td{
-    border: 1px solid #171819;
-    border-collapse: collapse;
-    font-family: 'Indie Flower', cursive;
-}
+
 .contenth5-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth5-img img{
     width: 70%;
-    height: 500px;
+    height: 580px;
     border-radius: 10px;
 }
 
@@ -548,21 +578,24 @@ table, th, td{
     width: 100%;
     padding: 70px 0;
 }
+
 .contenth12{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .contenth12 p{
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #171819;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
     font-family: 'Great Vibes', cursive;
 }
+
 .contenth13{
     width: 85%;
     margin: auto;
@@ -574,48 +607,45 @@ table, th, td{
     flex-direction: row-reverse;
     justify-content: center;
 }
+
 .contenth13 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places6{
     flex-basis: 50%;
 }
+
 .places6 h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth6-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth6-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
-.table{
-    width: 100%;
-    /*border-spacing: 40px;*/
-}
-.th{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-.table, th, td{
-    border: 1px solid #171819;
-    border-collapse: collapse;
-    font-family: 'Indie Flower', cursive;
-}
+
 .contenth6-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth6-img img{
     width: 70%;
-    height: 500px;
+    height: 580px;
     border-radius: 10px;
 }
 
@@ -625,21 +655,24 @@ table, th, td{
     width: 100%;
     padding: 70px 0;
 }
+
 .contenth14{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .contenth14 p{
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #171819;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
     font-family: 'Great Vibes', cursive;
 }
+
 .contenth15{
     width: 80%;
     margin: auto;
@@ -651,48 +684,45 @@ table, th, td{
     flex-direction: row;
     justify-content: center;
 }
+
 .contenth15 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places7{
     flex-basis: 50%;
 }
+
 .places7 h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth7-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth7-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
-.table{
-    width: 100%;
-    /*border-spacing: 40px;*/
-}
-.th{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-.table, th, td{
-    border: 1px solid #171819;
-    border-collapse: collapse;
-    font-family: 'Indie Flower', cursive;
-}
+
 .contenth7-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth7-img img{
     width: 70%;
-    height: 500px;
+    height: 580px;
     border-radius: 10px;
 }
 
@@ -702,21 +732,24 @@ table, th, td{
     width: 100%;
     padding: 70px 0;
 }
+
 .contenth16{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .contenth16 p{
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #171819;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
     font-family: 'Great Vibes', cursive;
 }
+
 .contenth17{
     width: 85%;
     margin: auto;
@@ -728,48 +761,45 @@ table, th, td{
     flex-direction: row-reverse;
     justify-content: center;
 }
+
 .contenth17 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places8{
     flex-basis: 50%;
 }
+
 .places8 h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth8-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth8-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
-.table{
-    width: 100%;
-    /*border-spacing: 40px;*/
-}
-.th{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-.table, th, td{
-    border: 1px solid #171819;
-    border-collapse: collapse;
-    font-family: 'Indie Flower', cursive;
-}
+
 .contenth8-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth8-img img{
     width: 70%;
-    height: 500px;
+    height: 580px;
     border-radius: 10px;
 }
 
@@ -779,21 +809,24 @@ table, th, td{
     width: 100%;
     padding: 70px 0;
 }
+
 .contenth18{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .contenth18 p{
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #171819;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
     font-family: 'Great Vibes', cursive;
 }
+
 .contenth19{
     width: 80%;
     margin: auto;
@@ -805,48 +838,45 @@ table, th, td{
     flex-direction: row;
     justify-content: center;
 }
+
 .contenth19 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places9{
     flex-basis: 50%;
 }
+
 .places9 h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth9-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth9-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
-.table{
-    width: 100%;
-    /*border-spacing: 40px;*/
-}
-.th{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-.table, th, td{
-    border: 1px solid #171819;
-    border-collapse: collapse;
-    font-family: 'Indie Flower', cursive;
-}
+
 .contenth9-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth9-img img{
     width: 70%;
-    height: 500px;
+    height: 580px;
     border-radius: 10px;
 }
 
@@ -856,21 +886,24 @@ table, th, td{
     width: 100%;
     padding: 70px 0;
 }
+
 .contenth20{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .contenth20 p{
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #171819;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
     font-family: 'Great Vibes', cursive;
 }
+
 .contenth21{
     width: 85%;
     margin: auto;
@@ -882,48 +915,45 @@ table, th, td{
     flex-direction: row-reverse;
     justify-content: center;
 }
+
 .contenth21 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places10{
     flex-basis: 50%;
 }
+
 .places10 h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth10-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth10-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
-.table{
-    width: 100%;
-    /*border-spacing: 40px;*/
-}
-.th{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-.table, th, td{
-    border: 1px solid #171819;
-    border-collapse: collapse;
-    font-family: 'Indie Flower', cursive;
-}
+
 .contenth10-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth10-img img{
     width: 70%;
-    height: 500px;
+    height: 580px;
     border-radius: 10px;
 }
 
@@ -933,21 +963,24 @@ table, th, td{
     width: 100%;
     padding: 70px 0;
 }
+
 .contenth22{
     text-align: center;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
 .contenth22 p{
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #171819;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block;
     font-family: 'Great Vibes', cursive;
 }
+
 .contenth23{
     width: 80%;
     margin: auto;
@@ -959,50 +992,106 @@ table, th, td{
     flex-direction: row;
     justify-content: center;
 }
+
 .contenth23 p{
     font-family: 'Indie Flower', cursive;
 }
+
 .places11{
     flex-basis: 50%;
 }
+
 .places11 h1{
     text-align: center;
     margin-bottom: 25px;
     font-weight: 100;
     color: black;
     font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-decoration: underline;
 }
+
 .contenth11-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .contenth11-text p{
     padding: 0 20px;
     text-align: initial;
+    font-size: 20px;
 }
-.table{
-    width: 100%;
-    /*border-spacing: 40px;*/
-}
-.th{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-.table, th, td{
-    border: 1px solid #171819;
-    border-collapse: collapse;
-    font-family: 'Indie Flower', cursive;
-}
+
 .contenth11-img{
     flex-basis: 50%;
     margin: auto;
 }
+
 .contenth11-img img{
     width: 70%;
-    height: 500px;
+    height: 580px;
     border-radius: 10px;
 }
+
+/*Contact Section*/
+#contact .section-title{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#contact .contact{
+    flex-direction: row;
+    max-width: 1070px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#contact .contact-items{
+    width: 400px;
+    display: flex;
+}
+
+#contact .contact-item{
+    width: 75%;
+    height: 130px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 0px 15px 3px #000000;
+    transition: .3s ease box-shadow;
+}
+
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+
+#contact .icon{
+    width: 10%;
+    margin: auto;
+    margin-top: -15px;
+    padding-right: 90px;
+}
+
+#contact .contact-info h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#contact .contact-info h2{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Indie Flower', cursive;
+}
+/*End Contact Section*/
 
 footer {
     background-color: #998c85;
