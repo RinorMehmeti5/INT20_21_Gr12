@@ -203,3 +203,17 @@ input[type=email]{
     color:red;
     font-size: 10px;
 }
+.mesazhet #id1,#id3{
+    width: 52%;
+    padding: 0%;
+    margin:0%;
+    color:red;
+    font-size: 10px;
+}
+.mesazhet #id2,#id4{
+    width: 47%;
+    padding: 0%;
+    margin:0%;
+    color:red;
+    font-size: 10px;
+}
