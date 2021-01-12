@@ -189,3 +189,17 @@ input[type=email]{
     font-size: 14px;
     font-weight: bolder;
 }
+.mesazhet{
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    margin:auto;
+    padding: 0%;
+}
+.mesazhet #id5{
+    width: 93%;
+    padding: 0%;
+    margin:0%;
+    color:red;
+    font-size: 10px;
+}
