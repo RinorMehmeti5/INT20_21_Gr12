@@ -38,12 +38,12 @@ html {
 
 #linqet_e_navigimit li a {
     text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    color: #423e3c;
+    font-size: 20px;
+    font-weight: 500;
+    color: #070606;
     padding: 10px 10px;
-    border-top: 3px solid #2e2b29;
-    border-radius: 50px;
+    font-family: Candara Light;
+    cursor: pointer;
 }
 
 #linqet_e_navigimit li a:hover {
