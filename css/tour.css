@@ -93,6 +93,11 @@ html {
     cursor: pointer;
 }
 
+#button-5 a {
+    position: relative;
+    transition: all .45s ease-Out;
+}
+
 
 #bar {
     color: #ff5733;
