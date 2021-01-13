@@ -25,7 +25,8 @@ html {
 	padding: 16px 104px;
 	background:#fff;
 	z-index: 100000;
-	border-bottom: 1px solid #2e2b29;
+    border-bottom: 1px solid #2e2b29;
+    height: 80px;
 }
 
 #linqet_e_navigimit{
@@ -126,31 +127,7 @@ html {
 	display: none;
 }
 
-.main {
-    padding-top: 120px;
-    height: 726px;
-    background-image: url("plane.jpg");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
 
-.contenth1{
-    text-align: center;
-    color: white;
-    padding-top: 150px;
-}
-
-.contenth1 h1{
-    font-size: 130px;
-    font-family: 'Indie Flower', cursive;
-}
-
-.contenth1 p{
-    font-size: 35px;
-    font-style: normal;
-    font-family: 'Indie Flower', cursive;
-}
 
 /*--Places--*/
 
@@ -1567,4 +1544,39 @@ footer input[type='submit']:hover {
     .kontakt .harta {
         width: 100%;
     }
+
 }
+.foto8{
+    background-image:url("../images/plane.jpg") ;
+    height: 800px;
+    }
+
+.foto8{
+    position: relative;
+    opacity: 0.7;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.text1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text1 h1{
+    font-size: 130px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.text1 p{
+    font-size: 35px;
+    font-style: normal;
+    font-family: 'Indie Flower', cursive;}
