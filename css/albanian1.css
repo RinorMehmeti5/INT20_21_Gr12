@@ -1,3 +1,4 @@
+
 body{
   margin:0%;
   background: linear-gradient(rgb(248, 248, 248),#a9ebc7);
@@ -17,7 +18,8 @@ body{
 	padding: 16px 104px;
 	background:#fff;
 	z-index: 100000;
-	border-bottom: 1px solid #2e2b29;
+  border-bottom: 1px solid #2e2b29;
+  height: 80px;
 }
 
 #linqet_e_navigimit{
@@ -617,4 +619,6 @@ transform: rotateY(calc(var(--i)*45deg))translateZ(400px);
 		background-position: center;
 	}
 }
+
+
 
