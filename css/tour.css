@@ -206,7 +206,7 @@ html {
 }
 
 table {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
     background-color: rgb(230, 221, 233);
     border: none;
@@ -227,6 +227,14 @@ td {
 
 #video1 {
     width: 360px;
+}
+
+.slide {
+    width: 800px;
+    height: 500px;
+    background: url(slidekorea.jpg);
+    margin: 100px auto;
+    animation: slide 15s infinite;
 }
 
 footer {
