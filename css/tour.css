@@ -206,7 +206,6 @@ html {
 }
 
 table {
-    font-family: 'Times New Roman', Times, serif;
     width: 100%;
     border-collapse: collapse;
     background-color: rgb(230, 221, 233);
@@ -216,6 +215,7 @@ table {
 
 th,
 td {
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 12px 5px;
 }
 
