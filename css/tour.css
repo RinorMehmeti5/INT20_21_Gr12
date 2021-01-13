@@ -64,25 +64,23 @@ html {
     background-color: #f0eae6;
 }
 
-#linqet_e_navigimit .ikona {
-    padding-left: 50px;
-}
-
-#linqet_e_navigimit .ikona a {
-    text-decoration: none;
-    font-weight: 600;
-    color: #f13a11;
-    padding: 10px 10px;
-    border-top: 2px solid #2e2b29;
-    border-bottom: 2px solid #2e2b29;
-    margin-right: 30px;
+.button11 {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #0505058e;
+    margin: 20px 20px 20px 20px;
+    color: #0707078e;
     text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-#linqet_e_navigimit .ikona a:hover {
-    border-radius: 12px;
-    transition: all 0.3s ease 0s;
-}
+
 
 #bar {
     color: #ff5733;
