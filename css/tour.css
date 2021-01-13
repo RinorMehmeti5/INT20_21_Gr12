@@ -87,7 +87,11 @@ html {
     font-weight: bold;
 }
 
-
+#button-5 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
 
 
 #bar {
