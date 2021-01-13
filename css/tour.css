@@ -131,6 +131,10 @@ html {
     position: relative;
 }
 
+.contenth1 h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .stylediv1,
 .stylediv2,
 .stylediv3 {
@@ -144,6 +148,12 @@ html {
     box-shadow: 0 0px 60px rgba(233, 219, 219, 0.233), 0 0px 50px rgba(233, 219, 219, 0.333), 0 0px 30px rgba(233, 219, 219, 0.417), 0 0px 16px rgba(233, 219, 219, 0.517), 0 0px 20px rgba(233, 219, 219, 0.75);
     padding: 20px;
     border-radius: 50px;
+}
+
+.stylediv1 b,
+.stylediv2 b,
+.stylediv3 b {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #gradient1,
