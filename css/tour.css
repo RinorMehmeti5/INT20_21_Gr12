@@ -237,6 +237,11 @@ td {
     animation: slide 15s infinite;
 }
 
+@keyframes slide {
+    25% {
+        background: url(slidekorea.jpg);
+    }
+
 footer {
     background-color: #998c85;
     line-height: 24px;
