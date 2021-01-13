@@ -47,10 +47,15 @@ html {
 }
 
 #linqet_e_navigimit li a:hover {
-    color: #1c1b1a;
-    cursor: pointer;
-    border-bottom: 5px solid #2e2b29;
-    background-color: #f0eae6;
+    color: #3a3838;
+    border-bottom: 5px solid#3536368e;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-right: 1px solid#3536368e;
+    border-top: 1px solid #3536368e;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-left: 1px solid#3536368e;
     transition: all 0.1s ease 0.1s;
 }
 
