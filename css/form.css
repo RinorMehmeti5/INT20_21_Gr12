@@ -29,6 +29,7 @@ body{
     flex-direction: row;
     border-radius: 20px;
 }
+
 .heder{
     height: 100%;
     width: 35%;
@@ -58,7 +59,7 @@ body{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-   .titull{
+.titull{
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -161,6 +162,7 @@ input[type=email]{
     margin:8px 0;
     padding: 12px 8px;
 }
+
 .dergo{
     width: 90%;
     display: flex;
@@ -203,6 +205,7 @@ input[type=email]{
     color:red;
     font-size: 10px;
 }
+
 .mesazhet #id1,#id3{
     width: 52%;
     padding: 0%;
@@ -210,6 +213,7 @@ input[type=email]{
     color:red;
     font-size: 10px;
 }
+
 .mesazhet #id2,#id4{
     width: 47%;
     padding: 0%;
@@ -217,3 +221,4 @@ input[type=email]{
     color:red;
     font-size: 10px;
 }
+
