@@ -253,6 +253,10 @@ td {
     85% {
         background: url(slideturkey1.jpg);
     }
+    100% {
+        background: url(slidenz1.jpg);
+    }
+}
     
 
 footer {
