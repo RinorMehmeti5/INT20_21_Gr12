@@ -80,6 +80,14 @@ html {
     overflow: hidden;
 }
 
+.button11 a {
+    color: #0000008e;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
 
 
 #bar {
