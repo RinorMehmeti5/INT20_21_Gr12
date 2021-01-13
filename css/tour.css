@@ -164,6 +164,7 @@ html {
 }
 
 .travel h1 {
+    font-family: 'Source Sans Pro', sans-serif;
     margin-top: 25%;
     padding: 40px;
     text-align: center;
@@ -186,6 +187,7 @@ html {
 }
 
 .travel1-details h4 {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 28px;
     font-weight: bolder;
 }
@@ -201,7 +203,6 @@ html {
     top: 20%;
     text-align: center;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 45px;
 }
 
@@ -257,7 +258,6 @@ td {
         background: url(slidenz1.jpg);
     }
 }
-    
 
 footer {
     background-color: #998c85;
