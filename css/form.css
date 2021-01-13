@@ -94,7 +94,7 @@ body{
 }
 .formulari{
     width: 90%;
-    height: 70%;
+    height: 73%;
     margin:auto;
     border-radius: 20px;
     box-sizing: border-box;
@@ -104,19 +104,21 @@ body{
   0 0px 30px rgba(233, 219, 219, 0.417),
   0 0px 16px rgba(233, 219, 219, 0.517),
   0 0px 20px rgba(233, 219, 219, 0.75);  
-  padding-top: 20px;
+  padding-top: 10px;
+  align-content: center;
 }
 .ndarje{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 #fname , #ftel{
     width: 45%;
     padding: 0px 8px;
-    margin:8px 0;
+    margin-bottom: 8px;
+    margin-top: 8px;
     border: 1px solid rgb(214, 111, 15);
     border-radius: 4px;
     box-sizing: border-box;
@@ -162,43 +164,17 @@ input[type=email]{
     margin:8px 0;
     padding: 12px 8px;
 }
-
-.dergo{
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin:auto;
-    margin-top: 20px;
-}
-
-#butoni1{
-    padding: 16px 40px;
-    background-color: rgb(14, 47, 138);
-    box-sizing: border-box;
-    border: none;
-    color: white;
-    font-size: 14px;
-    font-weight: bolder;
-}
-
-#butoni2{
-    padding: 16px 40px;
-    background-color: rgb(214, 111, 15);
-    box-sizing: border-box;
-    border:none;
-    color: white;
-    font-size: 14px;
-    font-weight: bolder;
-}
 .mesazhet{
     display: flex;
     flex-direction: row;
     width: 93%;
-    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
-.mesazhet #id5{
+.mesazhet #id5, #id10{
     width: 93%;
     padding: 0%;
     margin:0%;
@@ -206,7 +182,7 @@ input[type=email]{
     font-size: 10px;
 }
 
-.mesazhet #id1,#id3{
+.mesazhet #id1,#id3,#id6,#id8{
     width: 52%;
     padding: 0%;
     margin:0%;
@@ -214,11 +190,191 @@ input[type=email]{
     font-size: 10px;
 }
 
-.mesazhet #id2,#id4{
+.mesazhet #id2,#id4,#id7,#id9{
     width: 47%;
     padding: 0%;
     margin:0%;
     color:red;
     font-size: 10px;
 }
+
+.button3 {
+    display: block;
+    background-color: rgba(10, 180, 200, 1);
+    width: 75px;
+    height: 50px;
+    border: 2px dotted rgba(255, 255, 255, 1);
+    border-radius:10px;
+    overflow:hidden;
+    transition: all .5s;
+  }
+  
+  .button3:hover {
+    width:50px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px dotted rgba(10, 180, 200, 1);
+    transform:rotate(-90deg);
+    cursor: pointer;
+    transition: all .5s;
+  }
+  
+  .button3-content {
+    display:block;
+    position:relative;
+    width:75px;
+    height:50px;
+    font-family: arial;
+    color: rgba(255, 255, 255, 1);
+    font-weight:bold;
+    font-size: 14px;
+    line-height:45px;
+    white-space:none;
+    left:17px;
+    transition: all .5s;
+  }
+  
+  .button3:hover .button3-content {
+    left:-103px;
+    transition: all .5s;
+  }
+  
+  .button3-content:after {
+    position: absolute;
+    width:75px;
+    height:50px;
+    top: -2px;
+    left:110px;
+    content: '(:';
+    font-size:45px;
+    color: rgba(10, 180, 200, 1);
+  }
+  
+  .button3:active .button3-content:after {
+    content:'<3';
+    transform: rotate(90deg);
+    top: 15px;
+    left: 90px;
+  }
+  
+  /*button4*/
+  
+  .button4 {
+    display: block;
+    background-color: rgba(200, 50, 0, 1);
+    width: 75px;
+    height: 50px;
+    border: 2px dotted rgba(255, 255, 255, 1);
+    border-radius:10px;
+    overflow:hidden;
+    transition: all .5s;
+  }
+  
+  .button4:hover {
+    width:50px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px dotted rgba(200, 50, 0, 1);
+    transform:rotate(90deg);
+    cursor: pointer;
+    transition: all .5s;
+  }
+  
+  .button4-content {
+    display:block;
+    position:relative;
+    width:75px;
+    height:50px;
+    font-family: arial;
+    color: rgba(255, 255, 255, 1);
+    font-weight:bold;
+    font-size: 14px;
+    line-height:45px;
+    white-space:none;
+    left:17px;
+    transition: all .5s;
+  }
+  
+  .button4:hover .button4-content {
+    left:-103px;
+    transition: all .5s;
+  }
+  
+  .button4:active .button4-content:after {
+    content:':o';
+  }
+  
+  .button4-content:after {
+    position: absolute;
+    width:75px;
+    height:50px;
+    top: -2px;
+    left:110px;
+    content: ':(';
+    font-size:45px;
+    color: rgba(200, 50, 0, 1);
+  }
+  
+  /*Button5*/
+  
+  .button5 {
+    display: block;
+    background-color: rgba(90, 110, 90, 1);
+    width: 100px;
+    height: 50px;
+    border: 2px dotted rgba(255, 255, 255, 1);
+    border-radius:10px;
+    overflow:hidden;
+    transition: all .5s;
+  }
+  
+  .button5:hover {
+    width:50px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px dotted rgba(90, 110, 90, 1);
+    transform:rotate(90deg);
+    cursor: pointer;
+    transition: all .5s;
+  }
+  
+  .button5-content {
+    display:block;
+    position:relative;
+    width:100px;
+    height:50px;
+    font-family: arial;
+    color: rgba(255, 255, 255, 1);
+    font-weight:bold;
+    font-size: 14px;
+    line-height:45px;
+    white-space:none;
+    left:17px;
+    transition: all .5s;
+  }
+  
+  .button5:hover .button5-content {
+    left:-103px;
+    transition: all .5s;
+  }
+  
+  .button5:active .button5-content:after {
+    content:'*';
+    top:12px;
+  }
+  
+  .button5-content:after {
+    position: absolute;
+    width:75px;
+    height:50px;
+    top: -2px;
+    left:110px;
+    content: ':/';
+    font-size:45px;
+    color: rgba(90, 110, 90, 1);
+  }
+
+  .butonnat{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
