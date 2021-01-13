@@ -1,9 +1,14 @@
-
-  html{
-	scroll-behavior: smooth;
+body{
+  margin:0%;
+  background: linear-gradient(rgb(248, 248, 248),#a9ebc7);
 }
 
+ html{
+	scroll-behavior: smooth;
+}
 .navigimi{
+  box-sizing: border-box;
+	position: fixed;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -16,53 +21,94 @@
 }
 
 #linqet_e_navigimit{
+  margin:0%;
+  padding: 0%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
 
-#linqet_e_navigimit li{	
+#linqet_e_navigimit li{
 	list-style: none;
 	padding-right:  30px;
 }
 #linqet_e_navigimit li a{
 	text-decoration: none;
-	font-size: 16px;
-	font-weight: 600;
-	color:#423e3c;
+	font-size: 20px;
+	font-weight: 500;
+	color:#070606;
 	padding: 10px 10px;
-	border-top: 3px solid #2e2b29;
-	border-radius: 50px;
+	font-family: Candara Light;
+	cursor: pointer;
 }
 
 #linqet_e_navigimit li a:hover{
-	color: #1c1b1a;
-	cursor: pointer;
-	border-bottom: 5px solid #2e2b29;
-	background-color: #f0eae6;
+	color: #3a3838;
+	border-bottom: 5px solid#3536368e;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius:8px; 
+	border-right: 1px solid#3536368e;
+	border-top: 1px solid #3536368e;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-left: 1px solid#3536368e;
 	transition: all 0.1s ease 0.1s;
 }
 #linqet_e_navigimit li a:active{
-	border-bottom: 1px solid #2e2b29;
+	border-bottom: 1px solidd#3536368e;
 	background-color: #f0eae6;
 }
-#linqet_e_navigimit .ikona{
-	padding-left: 50px;
+
+.button11 {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #0505058e;
+  margin: 20px 20px 20px 20px;
+  color:#0707078e;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
-#linqet_e_navigimit .ikona a{
-	text-decoration: none;
-	font-weight: 600;
-	color:#f13a11;
-	padding: 10px 10px;
-	border-top: 2px solid #2e2b29;
-	border-bottom: 2px solid #2e2b29;
-	margin-right: 30px;
-	text-transform: uppercase;
+.button11 a{
+  color: #0000008e;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
-#linqet_e_navigimit .ikona a:hover{
-	border-radius: 12px;
-	transition: all 0.3s ease 0s;
+#button-5 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-5 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#translate {
+  transform: rotate(50deg);
+  width: 100%;
+  height: 250%;
+  left: -200px;
+  top: -30px;
+  background: #000000;
+  position: absolute;
+  transition: all .3s ease-Out;
+}
+
+#button-5:hover #translate {
+  left: 0;
+}
+
+#button-5:hover a {
+  color: #ffffff;
 }
 
 #bar{
@@ -70,7 +116,9 @@
 	display: none;
 }
   
-  .main{ width:100%;
+  .main
+{
+    width:100%;
     height:100vh;
     background-image:url("../images/albania.jpg");
     background-size:cover;
