@@ -353,6 +353,8 @@ body{
 
 
 .box {
+  margin-top: 100px;
+  margin-bottom: 150px;
    position: relative;
    left:50%;
    width:200px;
@@ -383,7 +385,6 @@ height:100%;
 transform-origin: center;
 transform-style: preserve-3d;
 transform: rotateY(calc(var(--i)*45deg))translateZ(400px);
--webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#004); 
 
 }
  .box span img {
@@ -394,6 +395,7 @@ transform: rotateY(calc(var(--i)*45deg))translateZ(400px);
   height:100%;
   object-fit: cover;
  } 
+
 
   .seasons p{
   font-family: cursive;
