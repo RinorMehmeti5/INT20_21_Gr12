@@ -233,29 +233,29 @@ td {
 .slide {
     width: 800px;
     height: 500px;
-    background: url(images/slidekorea.jpg);
+    background: url("../images/slidekorea.jpg");
     margin: 100px auto;
     animation: slide 15s infinite;
 }
 
 @keyframes slide {
     25% {
-        background: url(images/slidekorea.jpg);
+        background: url("../images/slidekorea.jpg");
     }
     40% {
-        background: url(images/slideturkey.jpg);
+        background: url("../images/slideturkey.jpg");
     }
     55% {
-        background: url(images/slidenz.jpg);
+        background: url("../images/slidenz.jpg");
     }
     70% {
-        background: url(images/slidekorea1.jpg);
+        background: url("../images/slidekorea1.jpg");
     }
     85% {
-        background: url(images/slideturkey1.jpg);
+        background: url("../images/slideturkey1.jpg");
     }
     100% {
-        background: url(images/slidenz1.jpg);
+        background: url("../images/slidenz1.jpg");
     }
 }
 
