@@ -20,26 +20,26 @@
  }
  .permbajtja .section2:nth-child(1)
  {
-    background: url("../images/spring.jpg");
+    background: url(images/spring.jpg);
 
        background-size: cover;
    background-attachment: fixed;
  }
  .permbajtja .section2:nth-child(2)
  {
-   background: url("../images/Summer1.jpg");
+   background: url(images/Summer1.jpg);
    background-size: cover;
    background-attachment: fixed;
  }
  .permbajtja .section2:nth-child(3)
  {
-   background:url("../images/autumn2.jpg");
+   background:url(images/autumn2.jpg);
    background-size: cover;
    background-attachment: fixed;
  }
  .permbajtja .section2:nth-child(4)
  {
-   background: url("../images/winter1.jpg");
+   background: url(images/winter1.jpg);
    background-size: cover;
    background-attachment: fixed;
  }
@@ -53,18 +53,26 @@ max-width: 700px;
  .permbajtja .section2 .content11 h2
  {background: #fff;
   color:#111;
+  font-family: 'Farsan', cursive;
+
   font-weight: 600;
   display: inline-block;
   padding: 10px 20px;
   font-size: 2em;
  }
+ .permbajtja .section2 .content11 h2 b{
+  font-family: 'Farsan', cursive;
+
+ }
+
  .permbajtja .section2 .content11 p
  { 
    background: #fff;
-  color:#111;
+   font-family: 'Farsan', cursive;
+   color:#111;
   font-weight: 300;
   padding: 10px 20px;
-  font-size: 1em;
+  font-size: 1.5em;
 margin-top:10px;
 
  }
