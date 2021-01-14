@@ -6,6 +6,20 @@
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 <body>
+	<script>
+        document.body.style.backgroundColor  = "#dbdeb8";
+        let ngjyrat  =['#6b64b3','#798582','#45edc9','#5ab067'];
+        let  i =0;
+        let ndryshoNgjyrat = () =>{
+            document.body.style.backgroundColor  = ngjyrat[i];
+            if(i==(ngjyrat.length)){
+                    i=0;
+            }
+            i++;
+        }
+        setInterval(ndryshoNgjyrat,2000);
+        </script>
+	
 	<div class="navigimi">
 		<img src="images/loggo.png">
 		<ul id="linqet_e_navigimit">
