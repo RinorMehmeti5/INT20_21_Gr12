@@ -240,22 +240,22 @@ td {
 
 @keyframes slide {
     25% {
-        background: url(slidekorea.jpg);
+        background: url(images/slidekorea.jpg);
     }
     40% {
-        background: url(slideturkey.jpg);
+        background: url(images/slideturkey.jpg);
     }
     55% {
-        background: url(slidenz.jpg);
+        background: url(images/slidenz.jpg);
     }
     70% {
-        background: url(slidekorea1.jpg);
+        background: url(images/slidekorea1.jpg);
     }
     85% {
-        background: url(slideturkey1.jpg);
+        background: url(images/slideturkey1.jpg);
     }
     100% {
-        background: url(slidenz1.jpg);
+        background: url(images/slidenz1.jpg);
     }
 }
 
