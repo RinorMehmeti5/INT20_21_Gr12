@@ -125,7 +125,7 @@ html {
 .main {
     width: 100%;
     height: 100vh;
-    background-image: url("images/foto6.jpg");
+    background-image: url("images/wallpaper_tour.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -233,7 +233,7 @@ td {
 .slide {
     width: 800px;
     height: 500px;
-    background: url(slidekorea.jpg);
+    background: url(images/slidekorea.jpg);
     margin: 100px auto;
     animation: slide 15s infinite;
 }
