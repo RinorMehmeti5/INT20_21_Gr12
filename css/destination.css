@@ -1548,7 +1548,7 @@ footer input[type='submit']:hover {
 }
 .foto8{
     background-image:url("../images/plane.jpg") ;
-    height: 800px;
+    height: 726px;
     }
 
 .foto8{
@@ -1562,21 +1562,21 @@ footer input[type='submit']:hover {
 
 .text1{
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 100%;
     text-align: center;
-    color: #000;
+    color: white;
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
 
 .text1 h1{
-    font-size: 130px;
+    font-size: 115px;
     font-family: 'Indie Flower', cursive;
 }
 
 .text1 p{
-    font-size: 35px;
+    font-size: 25px;
     font-style: normal;
     font-family: 'Indie Flower', cursive;}
