@@ -11,7 +11,7 @@ function Validimi() {
   catch(err) {
       Mesazhi.innerHTML = err;
   }
-
+ 
   //==============================================================================================
   //==============================================================================================
   var Mesazhi1 , y;
@@ -112,4 +112,36 @@ function Validimi() {
   catch(err) {
       Mesazhi7.innerHTML = err;
   }
+  //==============================================================================================
+  //==============================================================================================
+  var Mesazhi8, g;
+  Mesazhi8 = document.getElementById("id9");
+  g = document.getElementById("fprice").value;
+  try {
+    if(g == "") throw "This field should not be empty";
+    if(g.match(/[A-Za-z]/)) throw "price only contains numbers";
+    if(g.match(/[A-Za-z]+[0-9]/)) throw "price only contains numbers"
+    if(g.length>15) throw "price cant be larger than 15 digit";
+    if(g.length<10) throw null;
+  }
+  catch(err) {
+      Mesazhi8.innerHTML = err;
+  }
+  //==============================================================================================
+  //==============================================================================================
+  var Mesazhi9, h;
+  Mesazhi9 = document.getElementById("id10");
+  h = document.getElementById("fbank").value;
+  try {
+    if(h == "") throw "This field should not be empty";
+    if(h.match(/[A-Za-z]/)) throw "bank account only contains numbers";
+    if(h.match(/[A-Za-z]+[0-9]/)) throw "bank account only contains numbers"
+    if(h.length>16 || h.length<16 ) throw "bank account cant be larger than 16 digit";
+    if(h.length==16) throw null;
+  }
+  catch(err) {
+      Mesazhi9.innerHTML = err;
+  }
+ 
+ 
 }
