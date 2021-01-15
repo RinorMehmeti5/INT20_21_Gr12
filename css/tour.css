@@ -207,11 +207,18 @@ html {
 }
 
 table {
-    width: 80%;
+     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
     background-color: rgb(230, 221, 233);
     border: none;
     margin-top: 20px;
+}
+
+.divi33 {
+    width: 100%;
+    overflow: hidden;
 }
 
 th,
@@ -471,7 +478,4 @@ footer{
 		font-size: 24px;
 	}
 }
-.divi33{
-    width: 80%;
-    margin: auto;
-}
+
