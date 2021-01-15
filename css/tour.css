@@ -368,7 +368,7 @@ footer{
     text-transform: uppercase;
   }
 
-@media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1300px) {
     .navigimi {
         padding: 16px 50px;
     }
@@ -383,12 +383,12 @@ footer{
         margin-right: 0px;
     }
 }
- 
+
 @media screen and (max-width: 1300px){
 	.navigimi{
 	padding: 16px 50px;
 	}
- 
+
 	#linqet_e_navigimit li{
 		padding-right:  5px;
 	}
@@ -400,12 +400,12 @@ footer{
 		margin-right: 0px;
 	}
 } 
- 
+
 @media screen and (max-width: 1024px){
 	.navigimi{
 	padding: 16px 50px;
 	}
- 
+
 	#linqet_e_navigimit li{
 		padding-right:  5px;
 	}
@@ -417,7 +417,7 @@ footer{
 		margin-right: 0px;
 	}
 } 
- 
+
 @media screen and (max-width: 991px){
 	.navigimi{
 	padding: 16px 48px;
@@ -438,7 +438,7 @@ footer{
 		margin-top: 67.2px;
 		transition: 0.5s;
 	}
- 
+
 	#linqet_e_navigimit li{
 		padding-right:  0;
 		padding: 20px 0;
@@ -460,7 +460,7 @@ footer{
 		border-top: 1px solid white;
 		border-bottom: 1px solid white;
 	}
- 
+
 	#bar{
 		display: initial;
 		cursor: pointer;
@@ -470,143 +470,6 @@ footer{
 	.navigimi h2{
 		font-size: 24px;
 	}
-	.prapavija{
-		background-position: center;
-    }
-}
-    .klasa1 p {
-        font-size: 16px;
-        margin-bottom: 16px;
-    }
-    .klasa1 h2 {
-        font-size: 33.6px;
-    }
-    .klasa1 .linqe {
-        margin-top: 16px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .klasa1 .linqe a.simple {
-        padding: 11.2px 22.4px;
-        margin-bottom: 7px;
-    }
-    .klasa1 .linqe a.border {
-        padding: 11.2px 22.4px;
-    }
-    .Te_dhena {
-        padding: 80px 32px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .Te_dhena .one {
-        width: 70%;
-    }
-    .Te_dhena .one a {
-        font-size: 16px;
-    }
-    .Te_dhena .two {
-        padding-left: 0;
-        border-left: 0;
-        border-top: 1px solid #666262;
-        width: 70%;
-        margin-top: 27.2px;
-        padding-top: 27.2px;
-    }
-    .klasa2 {
-        padding: 80px 32px;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .klasa2 .about {
-        width: 70%;
-        margin-bottom: 27.2px;
-    }
-    .klasa2 .travel {
-        width: 70%;
-    }
-    .class {
-        padding: 96px;
-    }
-    .class .classMenu {
-        flex-direction: column;
-        justify-content: center;
-    }
-    .class .classMenu .team1 {
-        width: 65%;
-        margin-bottom: 20px;
-    }
-    .kontakt {
-        padding: 80px 32px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .kontakt .form {
-        width: 70%;
-        margin-bottom: 24px;
-    }
-    .kontakt .form h2 {
-        font-size: 40px;
-        padding-bottom: 7px;
-    }
-    .kontakt .harta {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 496px) {
-    .klasa1 p {
-        margin-bottom: 12.8px;
-    }
-    .klasa1 h2 {
-        font-size: 28.8px;
-    }
-    .klasa1 .linqe {
-        margin-top: 11.2px;
-    }
-    .Te_dhena {
-        padding: 64px 16px;
-    }
-    .Te_dhena .one {
-        width: 100%;
-    }
-    .Te_dhena .two {
-        width: 100%;
-    }
-    .klasa2 {
-        padding: 64px 16px;
-    }
-    .klasa2 .about {
-        width: 100%;
-    }
-    .klasa2 .travel {
-        width: 80%;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .klasa2 .travel .team1 {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .class {
-        padding: 100px 26px;
-    }
-    .class .classMenu .team1 {
-        width: 100%;
-    }
-    .kontakt {
-        padding: 64px 16px;
-    }
-    .kontakt .form {
-        width: 100%;
-        margin-bottom: 24px;
-    }
-    .kontakt .harta {
-        width: 100%;
-    }
 }
 .divi33{
     width: 80%;
