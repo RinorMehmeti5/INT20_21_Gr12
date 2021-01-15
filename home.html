@@ -196,7 +196,61 @@
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26292.324209542523!2d20.70990406128685!3d42.78888340976849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13534009514dd657%3A0xb71b1dea8ed7cbf6!2sKosovo!5e0!3m2!1sen!2s!4v1607794764498!5m2!1sen!2s" width="1290" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
 	</div>
+		<div class="divi22">
+		<fieldset>
+            <legend>Te jepen te dhenat te cilat doni ti ruani</legend>
+            <input id="inpKey" type="text" placeholder="enter key">
+            <input id="inpValue" type="text" placeholder="enter value">
+            <button type="button" id="btnInsert">Insert Data</button>
+			<button type="button" id="btnremove">Remove Data</button>
+			<button type="button" id="btnclear">Clear Data</button>
+        </fieldset>
+        <fieldset>
+            <legend>Te dhenat e ruajtura shfaqen ketu</legend>
+            <div id="IsOutput">
 
+            </div>
+        </fieldset>
+       <script type="text/javascript">
+            const inpKey = document.getElementById("inpKey");
+            const inpValue = document.getElementById("inpValue");
+            const btnInsert = document.getElementById("btnInsert");
+            const IsOutput = document.getElementById("IsOutput");
+			const btnremove = document.getElementById("btnremove");
+			const btnclear = document.getElementById("btnclear");
+
+			btnclear.onclick = function () {
+                    localStorage.clear();
+                    location.reload();
+              
+			};
+			
+            btnInsert.onclick = function () {
+                const key = inpKey.value;
+                const value  = inpValue.value;
+
+                if(key && value){
+                    localStorage.setItem(key,value);
+                    location.reload();
+                }
+            };
+            btnremove.onclick = function(){
+                const key = inpKey.value;
+                const value = inpValue.value;
+                if(key && value){
+                    localStorage.removeItem(key,value);
+                    location.reload();
+                }
+            };
+
+            for(let i = 0; i< localStorage.length; i++){
+                const key = localStorage.key(i);
+                const value =  localStorage.getItem(key);
+
+                IsOutput.innerHTML +=`${key}:${value}<br/>`;
+            }
+        </script>
+	</div>
 	<footer>
     <div class="art">
       <div class="content">
