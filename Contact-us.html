@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
         <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+        <script src="https://kit.fontawesome.com/0a786c01b2.js" crossorigin="anonymous"></script>
         <title>Contact us</title>
     </head>
     <body>
@@ -12,15 +13,15 @@
             <nav> 
             <div class="navigimi">
             <img src="images/loggo.png">
-            <ul class="linqet_e_navigimit">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Albania</a></li>
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">Tours</a></li>
-                <li><a href="#">Contact us</a></li>
+            <ul id="linqet_e_navigimit">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="albania1.html">Albania</a></li>
+                <li><a href="destination.html">Destination</a></li>
+                <li><a href="tour.html">Tours</a></li>
+                <li><a href="Contact-us.html">Contact us</a></li>
                 <div class="button11" id="button-5">
                     <div id="translate"></div>
-                    <a href="#">Get Ticket</a>
+                    <a href="form.html">Get Ticket</a>
                 </div>
                     </ul>
                 <i id="bar" class="fas fa-bars" aria-hidden="true"></i>
@@ -87,7 +88,7 @@
                         <div class="line"></div>
                     </div>
                     <div class="user-input-form">
-                        <form method="post" id="join-form" autocomplete="off">
+                        <form method="post" id="join-form" action="#" autocomplete="off">
                             <div class="join-form-btn1">
                                 <input type="text" name="name" id="join-name" required placeholder="Name">
                             </div>
@@ -130,7 +131,7 @@
             </div>
             <form method="post" id="contact-form">
                 <div class="row">
-                    <form method="post" action="#" class="contact-form">
+                    <form method="POST" action="#" class="contact-form" autocomplete="off">
                         <div class="row">
                             <div class="column c-1-3">
                                 <label for="Name">Name*</label>
@@ -307,18 +308,17 @@
             <div class="art">
       <div class="content">
         <section>
-          <header id="agency">Agency</header>
-          <a href="#agency">About</a>
-          <a href="Contact-us.html">Contact us</a>
-          <a href="#">Team</a>
-          <a href="#">Blod</a>
-        </section>
-        <section>
-          <header>Development</header>
-          <a href="home.html">Website</a>
-          <a href="#">Mobile Aplication</a>
-          <a href="#">UI & UX Desing</a>
-        </section>
+            <header>Agency</header>
+            <a href="Contact-us.html">About</a>
+            <a href="Contact-us.html">Contact us</a>
+            <a href="Contact-us.html">Team</a>
+          </section>
+          <section>
+            <header>Development</header>
+            <a href="home.html">Website</a>
+            <a href="tour.html">Tour</a>
+            <a href="https://travel.state.gov/">Travel</a>
+          </section>
         <section>
           <header>More and more</header>
           <form action="">
@@ -380,7 +380,7 @@
         </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/Contact-us.js"></script>
-        <script src="vendors/js/jquery.waypoints.min.js">
+        <script src="js/index.js"></script>
         </script>
     </body>
 </html>
