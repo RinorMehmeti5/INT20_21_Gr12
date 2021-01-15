@@ -1057,3 +1057,15 @@ footer input[type='submit']:hover{
 	}
 
 }
+#inpKey , #inpValue,#btnInsert,#btnremove,#btnclear{
+	padding: 7px;
+	height: 40px;
+}
+fieldset{
+margin-bottom: 20px;
+}
+
+.divi22{
+	width: 50%;
+	margin: auto;
+}
