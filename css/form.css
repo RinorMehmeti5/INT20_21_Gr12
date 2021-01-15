@@ -114,7 +114,7 @@ body{
     justify-content: space-evenly;
     margin-top: 8px;
 }
-#fname , #ftel{
+#fname , #ftel ,#fresidenca, #fticket{
     width: 45%;
     padding: 0px 8px;
     margin-bottom: 8px;
@@ -127,13 +127,15 @@ body{
     font-family: Bradley Hand ITC;
     font-weight: 800;
 }
-#fname::placeholder,#fsurname::placeholder, #ftel::placeholder, #fpersonal::placeholder {
+#fname::placeholder,#fsurname::placeholder, #ftel::placeholder,
+ #fpersonal::placeholder, #fticket::placeholder, #fprice::placeholder,
+ #fresidenca::placeholder, #fdestination::placeholder, #fbank::placeholder {
     font-size: 20px;
     font-family: Bradley Hand ITC;
     font-weight: 800;
     padding: 0%;
 }
-#fsurname, #fpersonal{
+#fsurname, #fpersonal, #fdestination, #fprice{
     width: 45%;
     padding: 12px 8px;
     margin:8px 0;
@@ -152,7 +154,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
-input[type=email]{
+input[type=email], #fbank{
     width: 93%;
     border: 1px solid rgb(214, 111, 15);
     border-radius: 4px;
