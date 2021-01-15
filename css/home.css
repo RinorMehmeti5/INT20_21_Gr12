@@ -588,17 +588,13 @@ footer input[type='mail']:focus{
   transition: all 0.3s ease 0s;
 }
 
-footer input[type='submit']{
-  background-color: white;
-  color:#24aa94;
-  text-transform: uppercase;
-  border:none;
-}
 
-footer input[type='submit']:hover{
-  background-color: #ffff00;
-  transition: all 0.3s ease 0s;
-}
+footer a {
+	text-decoration: none;
+	margin: 0%;
+	padding: 0%;
+  }
+
 .social{
   margin:16px;
   display: grid;
@@ -614,6 +610,11 @@ footer input[type='submit']:hover{
   border-radius: 8px;
   width: 100%
 }
+.social a{
+text-decoration: none;
+margin: 0%;
+padding: 0%;
+  }
 
 .social i:hover{
   color:#ffff00;
@@ -1057,6 +1058,7 @@ footer input[type='submit']:hover{
 	}
 
 }
+
 #inpKey , #inpValue,#btnInsert,#btnremove,#btnclear{
 	padding: 7px;
 	height: 40px;
