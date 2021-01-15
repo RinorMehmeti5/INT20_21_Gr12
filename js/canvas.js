@@ -56,11 +56,11 @@ var mouse={
 }
 
 var varguNgjyra=[
-  '#02547D',
-  '#0284A8',
-  '#02BEC4',
-  '#A9E8DC',
-  '#E1F7E7',
+  '#fff',
+  '#c0ebfd',
+  '#aee7ff',
+  '#9be1ff',
+  '#1c53d3',
 ]
 window.addEventListener('mousemove',function(event){
   mouse.x=event.x;
