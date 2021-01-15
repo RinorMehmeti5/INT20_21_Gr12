@@ -72,139 +72,235 @@
                     </div>
                 </div>
             </div>
-            
+            <div class="row" >
+                   <a href="#" class="join-us" id="join">Join Us</a> 
+             </div>
+            <div class="pop-up-window">
+                <div class="pop-up-content">
+                    <ion-icon name="close-outline" class="close-icon"></ion-icon>
+                    <div class="column c-1-3 user-data">
+                        <div class="row profile-picture">
+                            <img src="images/iconfinder_user-alt_285645.png" class="user">
+                            <input type="file" id="file" required>
+                            <label for="file" id="Uploadbutton">Choose Photo</label>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="user-input-form">
+                        <form method="post" id="join-form" autocomplete="off">
+                            <div class="join-form-btn1">
+                                <input type="text" name="name" id="join-name" required placeholder="Name">
+                            </div>
+                            <div class="join-form-btn">
+                                <input type="text" name="name" id="join-education" required placeholder="Education">
+                            </div>
+                            <div class="join-form-btn2 zero">
+                                <input type="text" name="birthday" id="join-birth" required placeholder="Birthday">
+                            </div>
+                            <div class="join-form-btn2">
+                                <input type="text" name="address" id="join-address" required placeholder="City, Street, Postal Code">
+                            </div>
+                            <div class="join-form-btn2 one">
+                                <input type="email" name="email" id="join-email" required placeholder="E-Mail">
+                            </div>
+                            <div class="join-form-btn2 two">
+                                <input type="text" name="number" id="join-phone" required placeholder="Phone Number">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="column c-2-3 user-message">
+                        <div class="user-message-head">
+                            <h1>Motivation letter</h1>
+                        </div>
+                        <div class="user-message-body">
+                            <input type="date" name="date" id="date-picker" required>
+                            <h2 class="menager">Dear HIRING MENAGER:</h2>
+                            <textarea name="message" class="message" placeholder="Your message..." required></textarea>
+                        </div>
+                        <input type="submit" value="Submit!" id="submit-btn">
+                    </div>
+                </div>
+            </div>
+                
         </section>
         
         <section class="section-forum section-forum-after" >
             <div class="row">
                 <h1>We are happy to hear from you</h1>
             </div>
+            <form method="post" id="contact-form">
+                <div class="row">
+                    <form method="post" action="#" class="contact-form">
+                        <div class="row">
+                            <div class="column c-1-3">
+                                <label for="Name">Name*</label>
+                            </div>
+                            <div class="column c-2-3">
+                                <input type="text" name="Name" id="Name" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column c-1-3">
+                                <label  for="last-name">Last Name*</label>
+                            </div>
+                            <div class="column c-2-3">
+                                <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column c-1-3">
+                                <label for="email">E-mail*</label>
+                            </div>
+                            <div class="column c-2-3">
+                                <input type="email" name="email" id="email" placeholder="E-mail address" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column c-1-3">
+                                <label for="subject">Subject*</label>
+                            </div>
+                            <div class="column c-2-3">
+                                <input type="text" name="subject" id="subject" required>
+                            </div>
+                        </div>
+                        <div class="optional-information">
+                            <div class="row">
+                            <p><em>OPTIONAL INFORMATION</em></p>
+                        </div>
+                            <div class="row">
+                            <div class="column c-1-3">
+                                <label for="city">Choose Your City</label>
+                            </div>
+                            <div class="column c-2-3">
+                                <select name="city" id="city">
+                                    <option value="1" selected>Prishtina</option>
+                                    <option value="2" >Prizren</option>
+                                    <option value="3" >Ferizaj</option>
+                                    <option value="4" >Peje</option>
+                                    <option value="5" >Gjakove</option>
+                                    <option value="6" >Gjilan</option>
+                                    <option value="7" >Mitrovice</option>
+                                    <option value="8" >Podujeve</option>
+                                    <option value="9" >Vushtri</option>
+                                    <option value="10" >Suhareke</option>
+                                    <option value="11" >Rahovec</option>
+                                    <option value="12" >Drenas</option>
+                                    <option value="13" >Lipjan</option>
+                                    <option value="14" >Malisheve</option>
+                                    <option value="15" >Kamenice</option>
+                                    <option value="16" >Viti</option>
+                                    <option value="17" >Deçan</option>
+                                    <option value="18" >Istog</option>
+                                    <option value="19" >Kline</option>
+                                    <option value="20" >Skenderaj</option>
+                                    <option value="21" >Dragash</option>
+                                    <option value="22" >Fushe Kosove</option>
+                                    <option value="23" >Kaçanik</option>
+                                    <option value="24" >Shtime</option>
+                                    <option value="25" >Obiliq</option>
+                                    <option value="26" >Leposaviq</option>
+                                    <option value="27" >Graçanice</option>
+                                    <option value="28" >Han i Elezit</option>
+                                    <option value="29" >Zveçan</option>
+                                    <option value="30" >Shterpce</option>
+                                    <option value="31" >Novoberde</option>
+                                    <option value="32" >Zubin Potok</option>
+                                    <option value="33" >Junik</option>
+                                    <option value="34" >Mamusha</option>
+                                    <option value="35" >Ranillug</option>
+                                    <option value="36" >Kollkoti</option>
+                                    <option value="37" >Parteshi</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column c-1-3">
+                                <label for="address">Home Address</label>
+                            </div>
+                            <div class="column c-2-3">
+                                <input type="text" name="address" id="address" placeholder="Street, zip-code">
+                            </div>
+                        </div>
+                            <div class="row">
+                            <div class="column c-1-3">
+                                <label for="gender">Choose gender</label>
+                            </div>
+                            <div class="column c-2-3">
+                                <select type="checkbox" name="gender" id="gender">
+                                    <option value="" selected>...</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="column c-1-3">
+                                <label for="message">Your Message</label>
+                            </div>
+                            <div class="column c-2-3">
+                                <textarea name="message" id="message" placeholder="Your message..." required></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column c-1-3">
+                                <label>&nbsp;</label>
+                            </div>
+                            <div class="column c-1-3">
+                                <input type="submit" value="Send!">
+                            </div>
+                            <div class="column c-1-3">
+                                <input type="reset" value="Reset!">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </form>
+        </section>
+        <section class="section-staff">
             <div class="row">
-                <form method="post" action="#" class="contact-form">
-                    <div class="row">
-                        <div class="column c-1-3">
-                            <label for="Name">Name*</label>
-                        </div>
-                        <div class="column c-2-3">
-                            <input type="text" name="Name" id="Name" placeholder="Your Name" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column c-1-3">
-                            <label  for="last-name">Last Name*</label>
-                        </div>
-                        <div class="column c-2-3">
-                            <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column c-1-3">
-                            <label for="email">E-mail*</label>
-                        </div>
-                        <div class="column c-2-3">
-                            <input type="email" name="email" id="email" placeholder="E-mail address" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column c-1-3">
-                            <label for="subject">Subject*</label>
-                        </div>
-                        <div class="column c-2-3">
-                            <input type="text" name="subject" id="subject" required>
-                        </div>
-                    </div>
-                    <div class="optional-information">
-                        <div class="row">
-                        <p><em>OPTIONAL INFORMATION</em></p>
-                    </div>
-                        <div class="row">
-                        <div class="column c-1-3">
-                            <label for="city">Choose Your City</label>
-                        </div>
-                        <div class="column c-2-3">
-                            <select name="city" id="city">
-                                <option value="1" selected>Prishtina</option>
-                                <option value="2" >Prizren</option>
-                                <option value="3" >Ferizaj</option>
-                                <option value="4" >Peje</option>
-                                <option value="5" >Gjakove</option>
-                                <option value="6" >Gjilan</option>
-                                <option value="7" >Mitrovice</option>
-                                <option value="8" >Podujeve</option>
-                                <option value="9" >Vushtri</option>
-                                <option value="10" >Suhareke</option>
-                                <option value="11" >Rahovec</option>
-                                <option value="12" >Drenas</option>
-                                <option value="13" >Lipjan</option>
-                                <option value="14" >Malisheve</option>
-                                <option value="15" >Kamenice</option>
-                                <option value="16" >Viti</option>
-                                <option value="17" >Deçan</option>
-                                <option value="18" >Istog</option>
-                                <option value="19" >Kline</option>
-                                <option value="20" >Skenderaj</option>
-                                <option value="21" >Dragash</option>
-                                <option value="22" >Fushe Kosove</option>
-                                <option value="23" >Kaçanik</option>
-                                <option value="24" >Shtime</option>
-                                <option value="25" >Obiliq</option>
-                                <option value="26" >Leposaviq</option>
-                                <option value="27" >Graçanice</option>
-                                <option value="28" >Han i Elezit</option>
-                                <option value="29" >Zveçan</option>
-                                <option value="30" >Shterpce</option>
-                                <option value="31" >Novoberde</option>
-                                <option value="32" >Zubin Potok</option>
-                                <option value="33" >Junik</option>
-                                <option value="34" >Mamusha</option>
-                                <option value="35" >Ranillug</option>
-                                <option value="36" >Kollkoti</option>
-                                <option value="37" >Parteshi</option>
-                                
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column c-1-3">
-                            <label for="address">Home Address</label>
-                        </div>
-                        <div class="column c-2-3">
-                            <input type="text" name="address" id="address" placeholder="Street, zip-code">
-                        </div>
-                    </div>
-                        <div class="row">
-                        <div class="column c-1-3">
-                            <label for="gender">Choose gender</label>
-                        </div>
-                        <div class="column c-2-3">
-                            <select type="checkbox" name="gender" id="gender">
-                                <option value="" selected>...</option>
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                            </select>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="row">
-                        <div class="column c-1-3">
-                            <label for="message">Your Message</label>
-                        </div>
-                        <div class="column c-2-3">
-                            <textarea name="message" id="message" placeholder="Your message..." required></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column c-1-3">
-                            <label>&nbsp;</label>
-                        </div>
-                        <div class="column c-1-3">
-                            <input type="submit" value="Send!">
-                        </div>
-                        <div class="column c-1-3">
-                            <input type="reset" value="Reset!">
-                        </div>
-                    </div>
-                </form>
+                <h1>We have the greatest staff</h1>
+            </div>
+            <div class="row">
+                <div class="column c-1-3">
+                    <blockquote>
+                        Hello there, I'm an employe at HUG THE WORLD. I have joined this traveling agency last year and I love it here. I have been able to travel to so many places I have dreamed before.
+                        <cite><img src="images/s1.jpg" alt="Staff 1">Rinesa B.</cite>
+                    </blockquote>
+                </div>
+                <div class="column c-1-3">
+                    <blockquote>
+                        Hello there, I'm an employe at HUG THE WORLD. I have been employed in this agency for 2 years and I must say this is the best experience I've had working in an agency till now.
+                        <cite><img src="images/s2.jpg" alt="Staff 2">Veranda B.</cite>
+                    </blockquote>
+                </div>
+                <div class="column c-1-3">
+                    <blockquote>
+                        Hello there, I'm an employe at HUG THE WORLD. I'am a Manager at this agency, I have been working here from the start 4 years ago, and I have never been so satisfied with my job.
+                        <cite><img src="images/s3.jpg" alt="Staff 3">Rinor M.</cite>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column c-1-3">
+                    <blockquote>
+                        Hello there, I'm an employe at HUG THE WORLD. I have just joined this agency, and I had a very warm welcome from the staff here. I love to work here with such great working conditions.
+                        <cite><img src="images/s4.jpg" alt="Staff 4">Lironë B</cite>
+                    </blockquote>
+                </div>
+                <div class="column c-1-3">
+                    <blockquote>
+                        Hello there, I'm an employe at HUG THE WORLD. I have joined this agency last year, and I've had the opportunity to travel lots of different places so fast and comfortable with this agency. 
+                        <cite><img src="images/s5.jpg" alt="Staff 5">Liresa F.</cite>
+                    </blockquote>
+                </div>
+                <div class="column c-1-3">
+                    <blockquote>
+                        Hello there, I'm an employe at HUG THE WORLD. I have been employed for almost 3 years now and I have been so comfortable with my job, it is hard to belive how fast these 3 years have passed.
+                        <cite><img src="images/s6.jpg" alt="Staff 6">Qendrim H.</cite>
+                    </blockquote>
+                </div>
             </div>
         </section>
         <footer>
@@ -244,6 +340,44 @@
       </div>
     </div>
         </footer>
+        <script>
+            document.getElementById('join').addEventListener('click', function(){
+                document.querySelector('.pop-up-window').style.display= 'flex';
+                setInterval(function() {wait();},4000);
+            })
+            
+            document.querySelector('.close-icon').addEventListener('click', function(){
+                document.querySelector('.pop-up-window').style.display = 'none';
+            
+            })
+            
+            const imgDiv = document.querySelector('.profile-picture');
+            const img = document.querySelector('.user');
+            const file = document.querySelector('#file');
+            const uploadButton = document.querySelector('#Uploadbutton');
+            
+            imgDiv.addEventListener('mouseenter', function(){
+                uploadButton.style.display = 'block';
+            });
+            imgDiv.addEventListener('mouseleave', function(){
+                uploadButton.style.display = 'none';
+            });
+            
+            file.addEventListener('change',function(){
+                const choosedImg = this.files[0];
+                
+                if(choosedImg){
+                    const readImg = new FileReader();
+                    
+                    readImg.addEventListener('load',function(){
+                        img.setAttribute('src',readImg.result);
+                    });
+                    
+                    readImg.readAsDataURL(choosedImg);
+                   }
+            });
+            
+        </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/Contact-us.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js">
