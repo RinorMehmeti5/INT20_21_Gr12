@@ -1,7 +1,6 @@
-
 body{
   margin:0%;
-  background: linear-gradient(rgb(248, 248, 248),#80c9eb);
+  background-color: #ffffff;
 }
 
  html{
@@ -320,7 +319,7 @@ body{
               width: 100%;
               height: 200px;
             }
- 
+  
             .last{
               width: 90%;
               height: 900px;
@@ -328,7 +327,6 @@ body{
               display: flex;
               justify-content: space-around;
             }
-            
             .last .left{
               width: 60%;
               height: 100%;
@@ -619,5 +617,10 @@ transform: rotateY(calc(var(--i)*45deg))translateZ(400px);
 	.prapavija{
 		background-position: center;
 	}
+}
+
+.night{
+  background-color: #343fe4;
+  color: #3a3838;
 }
 
